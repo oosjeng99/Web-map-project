@@ -1,0 +1,10765 @@
+var busstation = 
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0390935,
+          47.8007929
+        ]
+      },
+      "properties": {
+        "osm_id": 34824906,
+        "name": "Mönchsbergaufzug",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0535384,
+          47.8160674
+        ]
+      },
+      "properties": {
+        "osm_id": 84171535,
+        "name": "Gnigler Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0444852,
+          47.8218916
+        ]
+      },
+      "properties": {
+        "osm_id": 84189307,
+        "name": "Kirchenstraße/HTL",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0257029,
+          47.8018675
+        ]
+      },
+      "properties": {
+        "osm_id": 84194736,
+        "name": "Römergasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0597153,
+          47.8360746
+        ]
+      },
+      "properties": {
+        "osm_id": 110022050,
+        "name": "Jägerwirt",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.069067,
+          47.7739649
+        ]
+      },
+      "properties": {
+        "osm_id": 120098369,
+        "name": "Ginzkeyplatz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0100755,
+          47.8273295
+        ]
+      },
+      "properties": {
+        "osm_id": 129951186,
+        "name": "Fischergasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0234446,
+          47.8209835
+        ]
+      },
+      "properties": {
+        "osm_id": 151015109,
+        "name": "Halmberggasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0278112,
+          47.8088536
+        ]
+      },
+      "properties": {
+        "osm_id": 151015160,
+        "name": "Kuenburgstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0663054,
+          47.8037199
+        ]
+      },
+      "properties": {
+        "osm_id": 151015691,
+        "name": "Borromäumstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0664938,
+          47.8031377
+        ]
+      },
+      "properties": {
+        "osm_id": 151015692,
+        "name": "Borromäumstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.067962,
+          47.8010602
+        ]
+      },
+      "properties": {
+        "osm_id": 151015695,
+        "name": "Fadingerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0611219,
+          47.8276869
+        ]
+      },
+      "properties": {
+        "osm_id": 151015869,
+        "name": "Mauermannstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.058298,
+          47.8279149
+        ]
+      },
+      "properties": {
+        "osm_id": 151015872,
+        "name": "Maxstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0487477,
+          47.7815445
+        ]
+      },
+      "properties": {
+        "osm_id": 171747745,
+        "name": "Kommunalfriedhof",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0504892,
+          47.7987381
+        ]
+      },
+      "properties": {
+        "osm_id": 200565511,
+        "name": "Mozartsteg/Rudolfskai",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0583638,
+          47.7697865
+        ]
+      },
+      "properties": {
+        "osm_id": 200584813,
+        "name": "Morzg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0275507,
+          47.8238104
+        ]
+      },
+      "properties": {
+        "osm_id": 241973075,
+        "name": "Messe",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0546375,
+          47.7965008
+        ]
+      },
+      "properties": {
+        "osm_id": 242543510,
+        "name": "Justizgebäude",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"B\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0552319,
+          47.7989127
+        ]
+      },
+      "properties": {
+        "osm_id": 242543991,
+        "name": "Dr.-Franz-Rehrl-Platz/UKH",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"B\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0310364,
+          47.8041425
+        ]
+      },
+      "properties": {
+        "osm_id": 247184080,
+        "name": "Lindhofstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0537936,
+          47.806197
+        ]
+      },
+      "properties": {
+        "osm_id": 282568336,
+        "name": "Grillparzerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0440243,
+          47.8129604
+        ]
+      },
+      "properties": {
+        "osm_id": 287420676,
+        "name": "Hauptbahnhof",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"D\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0185239,
+          47.8037725
+        ]
+      },
+      "properties": {
+        "osm_id": 296547089,
+        "name": "Hans-Schmid-Platz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"A\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0287807,
+          47.8147437
+        ]
+      },
+      "properties": {
+        "osm_id": 297176664,
+        "name": "Thomas-Bernhard-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0483194,
+          47.8007452
+        ]
+      },
+      "properties": {
+        "osm_id": 304948452,
+        "name": "Mozartsteg/Imbergstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0662879,
+          47.826209
+        ]
+      },
+      "properties": {
+        "osm_id": 307999953,
+        "name": "Schleiferbachweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0528697,
+          47.7999611
+        ]
+      },
+      "properties": {
+        "osm_id": 317805212,
+        "name": "Äußerer Stein",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0508417,
+          47.7865321
+        ]
+      },
+      "properties": {
+        "osm_id": 336750897,
+        "name": "Beethovenstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0166439,
+          47.8355205
+        ]
+      },
+      "properties": {
+        "osm_id": 435281818,
+        "name": "Salzachsee",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0662807,
+          47.7927042
+        ]
+      },
+      "properties": {
+        "osm_id": 444661882,
+        "name": "Johannes-Filzer-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.049209,
+          47.7991657
+        ]
+      },
+      "properties": {
+        "osm_id": 474781585,
+        "name": "Mozartsteg/Rudolfskai",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0812243,
+          47.7793716
+        ]
+      },
+      "properties": {
+        "osm_id": 509307739,
+        "name": "Valkenauerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0063366,
+          47.8112891
+        ]
+      },
+      "properties": {
+        "osm_id": 529683769,
+        "name": "Peter-Pfenninger-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"yes\",\"bus\"=>\"yes\",\"lit\"=>\"yes\",\"public_transport\"=>\"platform\",\"route_ref\"=>\"1;28\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0409241,
+          47.8180481
+        ]
+      },
+      "properties": {
+        "osm_id": 545922329,
+        "name": "Erzherzog-Eugen-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0434419,
+          47.8029285
+        ]
+      },
+      "properties": {
+        "osm_id": 559440699,
+        "name": "Makartplatz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"A\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\",\"wheelchair\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0249177,
+          47.7821041
+        ]
+      },
+      "properties": {
+        "osm_id": 598450129,
+        "name": "Müller-Rundegg-Weg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0419382,
+          47.8071906
+        ]
+      },
+      "properties": {
+        "osm_id": 606376862,
+        "name": "Kongresshaus",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0619651,
+          47.7988101
+        ]
+      },
+      "properties": {
+        "osm_id": 606379864,
+        "name": "Volksgarten",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0661439,
+          47.7982446
+        ]
+      },
+      "properties": {
+        "osm_id": 606382255,
+        "name": "Finanzamt",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0364766,
+          47.8050868
+        ]
+      },
+      "properties": {
+        "osm_id": 611792626,
+        "name": "Bärenwirt",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.034126,
+          47.8068015
+        ]
+      },
+      "properties": {
+        "osm_id": 634617796,
+        "name": "Landeskrankenhaus",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0543538,
+          47.8258711
+        ]
+      },
+      "properties": {
+        "osm_id": 651889737,
+        "name": "Landstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0522355,
+          47.7855251
+        ]
+      },
+      "properties": {
+        "osm_id": 657671411,
+        "name": "Hofhaymer-Allee",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0390527,
+          47.8135375
+        ]
+      },
+      "properties": {
+        "osm_id": 703866486,
+        "name": "Jahnstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0658225,
+          47.8059903
+        ]
+      },
+      "properties": {
+        "osm_id": 916252060,
+        "name": "Fürbergstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0856003,
+          47.8129959
+        ]
+      },
+      "properties": {
+        "osm_id": 919913964,
+        "name": "Salzburg Kühberg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bus\"=>\"yes\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0835937,
+          47.8126706
+        ]
+      },
+      "properties": {
+        "osm_id": 919913977,
+        "name": "Salzburg Kühberg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"yes\",\"bin\"=>\"no\",\"bus\"=>\"yes\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.061644,
+          47.8217684
+        ]
+      },
+      "properties": {
+        "osm_id": 920310804,
+        "name": "Aglassingerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0145282,
+          47.754425
+        ]
+      },
+      "properties": {
+        "osm_id": 920489083,
+        "name": "Lehrbauhof",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9956884,
+          47.7929368
+        ]
+      },
+      "properties": {
+        "osm_id": 928128059,
+        "name": "Salzburg Airport (Charter Terminal)",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"yes\",\"bus\"=>\"yes\",\"public_transport\"=>\"platform\",\"route_ref\"=>\"2;8;27;31\",\"shelter\"=>\"yes\",\"uic_ref\"=>\"749072\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0421663,
+          47.8107271
+        ]
+      },
+      "properties": {
+        "osm_id": 931465104,
+        "name": "Kiesel",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"local_ref\"=>\"D\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0071911,
+          47.7800965
+        ]
+      },
+      "properties": {
+        "osm_id": 966851927,
+        "name": "Kräutlerweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0363221,
+          47.8053106
+        ]
+      },
+      "properties": {
+        "osm_id": 1046293842,
+        "name": "Bärenwirt",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0372159,
+          47.7975724
+        ]
+      },
+      "properties": {
+        "osm_id": 1096058161,
+        "name": "Reichenhaller Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0308354,
+          47.802957
+        ]
+      },
+      "properties": {
+        "osm_id": 1096938802,
+        "name": "Volksschule Mülln",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0235974,
+          47.8055618
+        ]
+      },
+      "properties": {
+        "osm_id": 1097040765,
+        "name": "Böhm-Ermolli-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0188778,
+          47.7890236
+        ]
+      },
+      "properties": {
+        "osm_id": 1142087220,
+        "name": "Bergerhof",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0405577,
+          47.8154159
+        ]
+      },
+      "properties": {
+        "osm_id": 1213716987,
+        "name": "Plainschule",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0818149,
+          47.7818723
+        ]
+      },
+      "properties": {
+        "osm_id": 1249717708,
+        "name": "Josef-Kaut-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0714749,
+          47.7708342
+        ]
+      },
+      "properties": {
+        "osm_id": 1251247330,
+        "name": "Alpensiedlung P+R",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0545244,
+          47.798707
+        ]
+      },
+      "properties": {
+        "osm_id": 1260170669,
+        "name": "Dr.-Franz-Rehrl-Platz/UKH",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"C\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.053469,
+          47.7974804
+        ]
+      },
+      "properties": {
+        "osm_id": 1260905201,
+        "name": "Justizgebäude",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"local_ref\"=>\"E\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0544026,
+          47.7966452
+        ]
+      },
+      "properties": {
+        "osm_id": 1260905244,
+        "name": "Justizgebäude",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"A\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0591917,
+          47.7940141
+        ]
+      },
+      "properties": {
+        "osm_id": 1260973657,
+        "name": "Akademiestraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0604297,
+          47.7864132
+        ]
+      },
+      "properties": {
+        "osm_id": 1261440495,
+        "name": "Bocksbergerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0603663,
+          47.7864888
+        ]
+      },
+      "properties": {
+        "osm_id": 1261441053,
+        "name": "Bocksbergerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0665983,
+          47.785746
+        ]
+      },
+      "properties": {
+        "osm_id": 1264868391,
+        "name": "Josefiau",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"yes\",\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"shelter\"=>\"yes\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0307522,
+          47.8146612
+        ]
+      },
+      "properties": {
+        "osm_id": 1282038259,
+        "name": "Schule Lehen",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0745536,
+          47.7906346
+        ]
+      },
+      "properties": {
+        "osm_id": 1332182105,
+        "name": "Überfuhrstraße/Diakoniezentrum",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0153999,
+          47.821635
+        ]
+      },
+      "properties": {
+        "osm_id": 1367504031,
+        "name": "Schmiedingerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0051649,
+          47.8173437
+        ]
+      },
+      "properties": {
+        "osm_id": 1388317503,
+        "name": "IKEA",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.058886,
+          47.7631068
+        ]
+      },
+      "properties": {
+        "osm_id": 1437399582,
+        "name": "Schloss Hellbrunn",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0587132,
+          47.7635941
+        ]
+      },
+      "properties": {
+        "osm_id": 1437399641,
+        "name": "Schloss Hellbrunn",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0548565,
+          47.8102241
+        ]
+      },
+      "properties": {
+        "osm_id": 1447874397,
+        "name": "Salzburg Pauernfeindstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"yes\",\"bin\"=>\"yes\",\"bus\"=>\"yes\",\"lit\"=>\"no\",\"public_transport\"=>\"platform\",\"route_ref\"=>\"120;140\",\"shelter\"=>\"yes\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0614923,
+          47.7950064
+        ]
+      },
+      "properties": {
+        "osm_id": 1458154526,
+        "name": "Prälat-Winkler-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0444992,
+          47.8221347
+        ]
+      },
+      "properties": {
+        "osm_id": 1459876889,
+        "name": "Kirchenstraße/HTL",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0746568,
+          47.7906953
+        ]
+      },
+      "properties": {
+        "osm_id": 1469237867,
+        "name": "Überfuhrstraße / Diakonie-Zentrum",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"yes\",\"bin\"=>\"yes\",\"lit\"=>\"yes\",\"public_transport\"=>\"platform\",\"route_ref\"=>\"7;160\",\"shelter\"=>\"yes\",\"tactile_paving\"=>\"yes\",\"uic_ref\"=>\"749182\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0723899,
+          47.7934435
+        ]
+      },
+      "properties": {
+        "osm_id": 1475157314,
+        "name": "Ernst-Grein-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0571299,
+          47.7924714
+        ]
+      },
+      "properties": {
+        "osm_id": 1477805997,
+        "name": "Sportzentrum Nonntal",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0394595,
+          47.8009213
+        ]
+      },
+      "properties": {
+        "osm_id": 1478258488,
+        "name": "Mönchsbergaufzug",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0582328,
+          47.7701036
+        ]
+      },
+      "properties": {
+        "osm_id": 1478917107,
+        "name": "Morzg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0559578,
+          47.7803981
+        ]
+      },
+      "properties": {
+        "osm_id": 1478917605,
+        "name": "Kleingmain",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.042303,
+          47.8100799
+        ]
+      },
+      "properties": {
+        "osm_id": 1479434644,
+        "name": "Salzburg Kiesel",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"A\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0529339,
+          47.7821583
+        ]
+      },
+      "properties": {
+        "osm_id": 1480008526,
+        "name": "Bernardigasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0383664,
+          47.8082317
+        ]
+      },
+      "properties": {
+        "osm_id": 1482716706,
+        "name": "Ernest-Thun-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0471743,
+          47.8188657
+        ]
+      },
+      "properties": {
+        "osm_id": 1482720526,
+        "name": "Kreuzstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0511129,
+          47.8227212
+        ]
+      },
+      "properties": {
+        "osm_id": 1483762713,
+        "name": "Itzling Pflanzmann",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0674613,
+          47.8234924
+        ]
+      },
+      "properties": {
+        "osm_id": 1491834945,
+        "name": "Lankessiedlung",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.067328,
+          47.8235875
+        ]
+      },
+      "properties": {
+        "osm_id": 1491834948,
+        "name": "Lankessiedlung",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0752396,
+          47.8000081
+        ]
+      },
+      "properties": {
+        "osm_id": 1496203673,
+        "name": "Joseph-Messner-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0384526,
+          47.8239395
+        ]
+      },
+      "properties": {
+        "osm_id": 1531642766,
+        "name": "Austraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0491732,
+          47.7815968
+        ]
+      },
+      "properties": {
+        "osm_id": 1543163717,
+        "name": "Kommunalfriedhof",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0557191,
+          47.826473
+        ]
+      },
+      "properties": {
+        "osm_id": 1544645809,
+        "name": "Landstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0569984,
+          47.8275301
+        ]
+      },
+      "properties": {
+        "osm_id": 1544645990,
+        "name": "Maxstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0569083,
+          47.8290955
+        ]
+      },
+      "properties": {
+        "osm_id": 1544646222,
+        "name": "Grüner Wald",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0577839,
+          47.829442
+        ]
+      },
+      "properties": {
+        "osm_id": 1544646281,
+        "name": "Grüner Wald",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0233435,
+          47.7779779
+        ]
+      },
+      "properties": {
+        "osm_id": 1579370933,
+        "name": "Gsengerweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"yes\",\"bin\"=>\"yes\",\"check_date:shelter\"=>\"2025-06-16\",\"lit\"=>\"yes\",\"public_transport\"=>\"platform\",\"shelter\"=>\"yes\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0180904,
+          47.7643044
+        ]
+      },
+      "properties": {
+        "osm_id": 1579370937,
+        "name": "Hochleitner",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"yes\",\"public_transport\"=>\"platform\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0192764,
+          47.7674003
+        ]
+      },
+      "properties": {
+        "osm_id": 1579370948,
+        "name": "Kräuterhofweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"public_transport\"=>\"platform\",\"shelter\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0022327,
+          47.8333513
+        ]
+      },
+      "properties": {
+        "osm_id": 1579413849,
+        "name": "Forellenwegsiedlung",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0177632,
+          47.7638241
+        ]
+      },
+      "properties": {
+        "osm_id": 1581268134,
+        "name": "Hochleitner",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"public_transport\"=>\"platform\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0223157,
+          47.7755974
+        ]
+      },
+      "properties": {
+        "osm_id": 1581268142,
+        "name": "Marienbad",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"yes\",\"public_transport\"=>\"platform\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0248593,
+          47.7821802
+        ]
+      },
+      "properties": {
+        "osm_id": 1581268168,
+        "name": "Müller-Rundegg-Weg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"no\",\"lit\"=>\"yes\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0443528,
+          47.8220605
+        ]
+      },
+      "properties": {
+        "osm_id": 1582514556,
+        "name": "Kirchenstraße (HTL Itzling)",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"yes\",\"bin\"=>\"yes\",\"bus\"=>\"yes\",\"lit\"=>\"yes\",\"public_transport\"=>\"platform\",\"route_ref\"=>\"3;5\",\"shelter\"=>\"yes\",\"tactile_paving\"=>\"no\",\"uic_ref\"=>\"749117\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0210876,
+          47.8243345
+        ]
+      },
+      "properties": {
+        "osm_id": 1583942733,
+        "name": "Laufenstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0550825,
+          47.8066617
+        ]
+      },
+      "properties": {
+        "osm_id": 1587468447,
+        "name": "Grillparzerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0468613,
+          47.8118766
+        ]
+      },
+      "properties": {
+        "osm_id": 1588422394,
+        "name": "Hauptbahnhof",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"Z\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0467563,
+          47.8118908
+        ]
+      },
+      "properties": {
+        "osm_id": 1588422400,
+        "name": "Hauptbahnhof",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"Y\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0224057,
+          47.8277555
+        ]
+      },
+      "properties": {
+        "osm_id": 1589680761,
+        "name": "Hagenaustraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0442744,
+          47.7796918
+        ]
+      },
+      "properties": {
+        "osm_id": 1597877556,
+        "name": "Georg-von-Nissen-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"yes\",\"lit\"=>\"yes\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0609749,
+          47.8371591
+        ]
+      },
+      "properties": {
+        "osm_id": 1601138239,
+        "name": "Werner-von-Siemens-Platz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bus\"=>\"yes\",\"public_transport\"=>\"platform\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0609315,
+          47.8371095
+        ]
+      },
+      "properties": {
+        "osm_id": 1601181462,
+        "name": "Werner-von-Siemens-Platz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.064858,
+          47.8195058
+        ]
+      },
+      "properties": {
+        "osm_id": 1601996667,
+        "name": "Schillinghofsiedlung",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bus\"=>\"yes\",\"public_transport\"=>\"platform\",\"route_ref\"=>\"23\",\"shelter\"=>\"no\",\"uic_ref\"=>\"749291\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0194258,
+          47.79181
+        ]
+      },
+      "properties": {
+        "osm_id": 1606722873,
+        "name": "Richard-Knoller-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9964155,
+          47.830189
+        ]
+      },
+      "properties": {
+        "osm_id": 1606814158,
+        "name": "Friedrich-von-Walchen-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"local_ref\"=>\"A\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9953413,
+          47.8304973
+        ]
+      },
+      "properties": {
+        "osm_id": 1606814167,
+        "name": "Friedrich-von-Walchen-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"no\",\"local_ref\"=>\"B\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0167105,
+          47.8173762
+        ]
+      },
+      "properties": {
+        "osm_id": 1606814171,
+        "name": "Gstöttengutstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"no\",\"bus\"=>\"yes\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.016517,
+          47.8176015
+        ]
+      },
+      "properties": {
+        "osm_id": 1606814177,
+        "name": "Gstöttengutstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"no\",\"bus\"=>\"yes\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0145686,
+          47.8200793
+        ]
+      },
+      "properties": {
+        "osm_id": 1606814184,
+        "name": "Hafnermühlweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"no\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0142348,
+          47.8205382
+        ]
+      },
+      "properties": {
+        "osm_id": 1606814186,
+        "name": "Hafnermühlweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"no\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0208601,
+          47.8218596
+        ]
+      },
+      "properties": {
+        "osm_id": 1606814319,
+        "name": "Bessarabierstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9992466,
+          47.8284899
+        ]
+      },
+      "properties": {
+        "osm_id": 1606814882,
+        "name": "Rottweg/Fa. Röhrich",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"yes\",\"bus\"=>\"yes\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9984694,
+          47.828587
+        ]
+      },
+      "properties": {
+        "osm_id": 1606814886,
+        "name": "Rottweg/Fa. Röhrich",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"no\",\"bus\"=>\"yes\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0064217,
+          47.8269036
+        ]
+      },
+      "properties": {
+        "osm_id": 1606814890,
+        "name": "Schmiedkreuzstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"no\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0063831,
+          47.8270119
+        ]
+      },
+      "properties": {
+        "osm_id": 1606814899,
+        "name": "Schmiedkreuzstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"no\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.009322,
+          47.8227273
+        ]
+      },
+      "properties": {
+        "osm_id": 1606814901,
+        "name": "Volksschule Liefering",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"yes\",\"bus\"=>\"yes\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0092068,
+          47.8227282
+        ]
+      },
+      "properties": {
+        "osm_id": 1606814903,
+        "name": "Volksschule Liefering",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"no\",\"bus\"=>\"yes\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.072202,
+          47.7616239
+        ]
+      },
+      "properties": {
+        "osm_id": 1606851936,
+        "name": "Alpenstraße Fa. Porsche",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"yes\",\"bus\"=>\"yes\",\"public_transport\"=>\"platform\",\"shelter\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0718786,
+          47.7617188
+        ]
+      },
+      "properties": {
+        "osm_id": 1606851941,
+        "name": "Alpenstraße Fa. Porsche",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"no\",\"bus\"=>\"yes\",\"public_transport\"=>\"platform\",\"shelter\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0144488,
+          47.793324
+        ]
+      },
+      "properties": {
+        "osm_id": 1607320077,
+        "name": "Klostermaierhofweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0967555,
+          47.8111878
+        ]
+      },
+      "properties": {
+        "osm_id": 1607342128,
+        "name": "Gaisberg Gersbergalm",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"no\",\"bus\"=>\"yes\",\"lit\"=>\"no\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\",\"wheelchair\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0960279,
+          47.8112824
+        ]
+      },
+      "properties": {
+        "osm_id": 1607342129,
+        "name": "Gaisberg Gersbergalm",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"yes\",\"bin\"=>\"yes\",\"bus\"=>\"yes\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\",\"wheelchair\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1058899,
+          47.7949266
+        ]
+      },
+      "properties": {
+        "osm_id": 1607342130,
+        "name": "Gaisberg Steinwänder",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"wheelchair\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.105546,
+          47.7950736
+        ]
+      },
+      "properties": {
+        "osm_id": 1607342131,
+        "name": "Gaisberg Steinwänder",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"platform\",\"wheelchair\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1004758,
+          47.7995911
+        ]
+      },
+      "properties": {
+        "osm_id": 1607342132,
+        "name": "Gaisberg Judenbergalm",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"yes\",\"bus\"=>\"yes\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"wheelchair\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1002452,
+          47.7996167
+        ]
+      },
+      "properties": {
+        "osm_id": 1607342133,
+        "name": "Gaisberg Judenbergalm",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bus\"=>\"yes\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"wheelchair\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1145323,
+          47.7900575
+        ]
+      },
+      "properties": {
+        "osm_id": 1607342134,
+        "name": "Gaisberg Mitteregg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bus\"=>\"yes\",\"kerb\"=>\"no\",\"lit\"=>\"no\",\"passenger_information_display\"=>\"no\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\",\"wheelchair\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1148044,
+          47.7905046
+        ]
+      },
+      "properties": {
+        "osm_id": 1607342135,
+        "name": "Gaisberg Mitteregg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"yes\",\"bus\"=>\"yes\",\"kerb\"=>\"no\",\"lit\"=>\"no\",\"passenger_information_display\"=>\"no\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\",\"wheelchair\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0778394,
+          47.8226077
+        ]
+      },
+      "properties": {
+        "osm_id": 1625046537,
+        "name": "Langwied",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0551188,
+          47.8067529
+        ]
+      },
+      "properties": {
+        "osm_id": 1632297968,
+        "name": "Grillparzerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"yes\",\"bin\"=>\"yes\",\"bus\"=>\"yes\",\"lit\"=>\"yes\",\"public_transport\"=>\"platform\",\"route_ref\"=>\"4;120;130;131;140;150;155\",\"shelter\"=>\"yes\",\"tactile_paving\"=>\"no\",\"uic_ref\"=>\"592133\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0182277,
+          47.7948754
+        ]
+      },
+      "properties": {
+        "osm_id": 1664178982,
+        "name": "Kugelhofstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0797531,
+          47.8033495
+        ]
+      },
+      "properties": {
+        "osm_id": 1676581423,
+        "name": "Ludwig-Schmederer-Platz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0446041,
+          47.8142104
+        ]
+      },
+      "properties": {
+        "osm_id": 1677313864,
+        "name": "Engelbert-Weiß-Weg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0526325,
+          47.8155202
+        ]
+      },
+      "properties": {
+        "osm_id": 1680308924,
+        "name": "Gnigler Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0150078,
+          47.7565117
+        ]
+      },
+      "properties": {
+        "osm_id": 1682850683,
+        "name": "Mayrbachweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0303709,
+          47.7826327
+        ]
+      },
+      "properties": {
+        "osm_id": 1682850995,
+        "name": "Zwieselweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0274439,
+          47.7887054
+        ]
+      },
+      "properties": {
+        "osm_id": 1683546310,
+        "name": "Mörkweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"yes\",\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"shelter\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.040894,
+          47.8178553
+        ]
+      },
+      "properties": {
+        "osm_id": 1685744932,
+        "name": "Erzherzog-Eugen-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1112794,
+          47.8035608
+        ]
+      },
+      "properties": {
+        "osm_id": 1687099875,
+        "name": "Gaisbergspitze",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"no\",\"bus\"=>\"yes\",\"check_date:shelter\"=>\"2024-07-08\",\"kerb\"=>\"no\",\"lit\"=>\"no\",\"passenger_information_display\"=>\"no\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"surface\"=>\"asphalt\",\"tactile_paving\"=>\"no\",\"wheelchair\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0542979,
+          47.8255348
+        ]
+      },
+      "properties": {
+        "osm_id": 1693480271,
+        "name": "Landstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0439826,
+          47.8053655
+        ]
+      },
+      "properties": {
+        "osm_id": 1700849968,
+        "name": "Mirabellplatz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"C\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0151156,
+          47.7933995
+        ]
+      },
+      "properties": {
+        "osm_id": 1702936919,
+        "name": "Klostermaierhofweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0166622,
+          47.7862421
+        ]
+      },
+      "properties": {
+        "osm_id": 1703036027,
+        "name": "Höglstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0534093,
+          47.7959501
+        ]
+      },
+      "properties": {
+        "osm_id": 1703227421,
+        "name": "Justizgebäude",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"C\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0555936,
+          47.7989685
+        ]
+      },
+      "properties": {
+        "osm_id": 1719212667,
+        "name": "Dr.-Franz-Rehrl-Platz/UKH",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"A\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0401124,
+          47.765613
+        ]
+      },
+      "properties": {
+        "osm_id": 1782690778,
+        "name": "Eichethofsiedlung",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0222857,
+          47.8052233
+        ]
+      },
+      "properties": {
+        "osm_id": 1803045043,
+        "name": "Böhm-Ermolli-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.035263,
+          47.7904245
+        ]
+      },
+      "properties": {
+        "osm_id": 1804832313,
+        "name": "Freibad Leopoldskron",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0611022,
+          47.7987367
+        ]
+      },
+      "properties": {
+        "osm_id": 1811056717,
+        "name": "Volksgarten",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.015694,
+          47.7859236
+        ]
+      },
+      "properties": {
+        "osm_id": 1823024305,
+        "name": "Höglstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0719129,
+          47.8185943
+        ]
+      },
+      "properties": {
+        "osm_id": 1829487678,
+        "name": "Bachstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0803169,
+          47.8261728
+        ]
+      },
+      "properties": {
+        "osm_id": 1829488009,
+        "name": "Mayrwiesweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0082152,
+          47.8137423
+        ]
+      },
+      "properties": {
+        "osm_id": 1977879899,
+        "name": "Norbert-Brüll-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9929799,
+          47.7914449
+        ]
+      },
+      "properties": {
+        "osm_id": 1989387666,
+        "name": "Am Römerstein",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9927855,
+          47.7916468
+        ]
+      },
+      "properties": {
+        "osm_id": 1989387817,
+        "name": "Am Römerstein",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0093971,
+          47.8160491
+        ]
+      },
+      "properties": {
+        "osm_id": 2004341155,
+        "name": "Europark",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"local_ref\"=>\"B\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.079985,
+          47.8257612
+        ]
+      },
+      "properties": {
+        "osm_id": 2114958287,
+        "name": "Mayrwiesweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0281301,
+          47.8144576
+        ]
+      },
+      "properties": {
+        "osm_id": 2180399733,
+        "name": "Thomas-Bernhard-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0330326,
+          47.8107369
+        ]
+      },
+      "properties": {
+        "osm_id": 2208190867,
+        "name": "Gaswerkgasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"local_ref\"=>\"D\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0439412,
+          47.8128348
+        ]
+      },
+      "properties": {
+        "osm_id": 2288808793,
+        "name": "Hauptbahnhof",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"B\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0445297,
+          47.8160233
+        ]
+      },
+      "properties": {
+        "osm_id": 2430945506,
+        "name": "Fanny-von-Lehnert-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0063039,
+          47.8111946
+        ]
+      },
+      "properties": {
+        "osm_id": 2431363805,
+        "name": "Peter-Pfenninger-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0207863,
+          47.840332
+        ]
+      },
+      "properties": {
+        "osm_id": 2542272586,
+        "name": "Bergheim Bundesstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"lit\"=>\"yes\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0394081,
+          47.8220183
+        ]
+      },
+      "properties": {
+        "osm_id": 2572862838,
+        "name": "Science City Itzling",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0436659,
+          47.8024051
+        ]
+      },
+      "properties": {
+        "osm_id": 2659239535,
+        "name": "Makartplatz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"C\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0505665,
+          47.8050419
+        ]
+      },
+      "properties": {
+        "osm_id": 2702366514,
+        "name": "Salzburg Hofwirt",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0541058,
+          47.8130739
+        ]
+      },
+      "properties": {
+        "osm_id": 2702366518,
+        "name": "Breitenfelderstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.115043,
+          47.794524
+        ]
+      },
+      "properties": {
+        "osm_id": 2864605901,
+        "name": "Gaisberg Zistelalm",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"yes\",\"bin\"=>\"no\",\"bus\"=>\"yes\",\"kerb\"=>\"raised\",\"kerb:approach_aid\"=>\"no\",\"lit\"=>\"no\",\"passenger_information_display\"=>\"no\",\"public_transport\"=>\"platform\",\"shelter\"=>\"yes\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0690882,
+          47.796389
+        ]
+      },
+      "properties": {
+        "osm_id": 3138783558,
+        "name": "Rennbahnstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0501196,
+          47.7918986
+        ]
+      },
+      "properties": {
+        "osm_id": 3269030020,
+        "name": "Erzabt-Klotz-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0506442,
+          47.7920718
+        ]
+      },
+      "properties": {
+        "osm_id": 3269030021,
+        "name": "Erzabt-Klotz-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0519505,
+          47.7940618
+        ]
+      },
+      "properties": {
+        "osm_id": 3269030025,
+        "name": "Petersbrunnstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0522628,
+          47.794508
+        ]
+      },
+      "properties": {
+        "osm_id": 3269030030,
+        "name": "Petersbrunnstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0535834,
+          47.7966501
+        ]
+      },
+      "properties": {
+        "osm_id": 3269030033,
+        "name": "Justizgebäude",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"D\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0405318,
+          47.7995097
+        ]
+      },
+      "properties": {
+        "osm_id": 3269030043,
+        "name": "Herbert-von-Karajan-Platz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0450444,
+          47.8003949
+        ]
+      },
+      "properties": {
+        "osm_id": 3269030047,
+        "name": "Rathaus",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0432586,
+          47.8007155
+        ]
+      },
+      "properties": {
+        "osm_id": 3269030050,
+        "name": "Ferdinand-Hanusch-Platz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0422165,
+          47.8009555
+        ]
+      },
+      "properties": {
+        "osm_id": 3269030053,
+        "name": "Ferdinand-Hanusch-Platz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\",\"wheelchair\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0424923,
+          47.8028538
+        ]
+      },
+      "properties": {
+        "osm_id": 3269030057,
+        "name": "Makartplatz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"D\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.037207,
+          47.7604077
+        ]
+      },
+      "properties": {
+        "osm_id": 3269102401,
+        "name": "Birkensiedlung",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0400646,
+          47.7652578
+        ]
+      },
+      "properties": {
+        "osm_id": 3269102409,
+        "name": "Eichethofsiedlung",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.041138,
+          47.770083
+        ]
+      },
+      "properties": {
+        "osm_id": 3269102410,
+        "name": "Dossenweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0415822,
+          47.7739685
+        ]
+      },
+      "properties": {
+        "osm_id": 3269102411,
+        "name": "Höglwörthweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0417053,
+          47.7744078
+        ]
+      },
+      "properties": {
+        "osm_id": 3269102412,
+        "name": "Höglwörthweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0425431,
+          47.7765915
+        ]
+      },
+      "properties": {
+        "osm_id": 3269102413,
+        "name": "Santnergasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0427089,
+          47.7768744
+        ]
+      },
+      "properties": {
+        "osm_id": 3269102414,
+        "name": "Santnergasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0444751,
+          47.7791434
+        ]
+      },
+      "properties": {
+        "osm_id": 3269102416,
+        "name": "Georg-von-Nissen-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0449125,
+          47.7795206
+        ]
+      },
+      "properties": {
+        "osm_id": 3269102418,
+        "name": "Georg-von-Nissen-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0523408,
+          47.7852144
+        ]
+      },
+      "properties": {
+        "osm_id": 3269102445,
+        "name": "Hofhaymer-Allee",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.050265,
+          47.7896624
+        ]
+      },
+      "properties": {
+        "osm_id": 3269102446,
+        "name": "Wäschergasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0365706,
+          47.7975423
+        ]
+      },
+      "properties": {
+        "osm_id": 3269535383,
+        "name": "Reichenhaller Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0650172,
+          47.8092974
+        ]
+      },
+      "properties": {
+        "osm_id": 3270392599,
+        "name": "Sterneckstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0639521,
+          47.8093764
+        ]
+      },
+      "properties": {
+        "osm_id": 3270392600,
+        "name": "Salzburg Sterneckstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0646938,
+          47.8093769
+        ]
+      },
+      "properties": {
+        "osm_id": 3270392604,
+        "name": "Sterneckstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0306376,
+          47.7973064
+        ]
+      },
+      "properties": {
+        "osm_id": 3270652580,
+        "name": "Quartier Riedenburg (C)",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"C\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0324307,
+          47.7980388
+        ]
+      },
+      "properties": {
+        "osm_id": 3270652606,
+        "name": "Salzburg Quartier Riedenburg (D)",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"D\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0444279,
+          47.8045781
+        ]
+      },
+      "properties": {
+        "osm_id": 3276552768,
+        "name": "Mirabellplatz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"D\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0436341,
+          47.8046795
+        ]
+      },
+      "properties": {
+        "osm_id": 3276552769,
+        "name": "Mirabellplatz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"E\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0330734,
+          47.8089915
+        ]
+      },
+      "properties": {
+        "osm_id": 3294938526,
+        "name": "Strubergasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0661604,
+          47.8180613
+        ]
+      },
+      "properties": {
+        "osm_id": 3442378761,
+        "name": "Josef-Waach-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0057788,
+          47.8285811
+        ]
+      },
+      "properties": {
+        "osm_id": 3588437333,
+        "name": "Lieferinger Spitz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0017848,
+          47.8306929
+        ]
+      },
+      "properties": {
+        "osm_id": 3600965457,
+        "name": "Saalachstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0441148,
+          47.8130908
+        ]
+      },
+      "properties": {
+        "osm_id": 3612756086,
+        "name": "Hauptbahnhof",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"F\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.066348,
+          47.7869313
+        ]
+      },
+      "properties": {
+        "osm_id": 4323162820,
+        "name": "Josefiau",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0378987,
+          47.8269875
+        ]
+      },
+      "properties": {
+        "osm_id": 4699564877,
+        "name": "Plainbrücke",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0663799,
+          47.8117
+        ]
+      },
+      "properties": {
+        "osm_id": 5149980007,
+        "name": "Salzburg Gnigl S-Bahn",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0700016,
+          47.8159644
+        ]
+      },
+      "properties": {
+        "osm_id": 5151672281,
+        "name": "Turnerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0493338,
+          47.8050641
+        ]
+      },
+      "properties": {
+        "osm_id": 5151936106,
+        "name": "Hofwirt",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0780717,
+          47.8231396
+        ]
+      },
+      "properties": {
+        "osm_id": 5151974299,
+        "name": "Langwied",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0600257,
+          47.807365
+        ]
+      },
+      "properties": {
+        "osm_id": 5153845536,
+        "name": "Canavalstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0093837,
+          47.8165648
+        ]
+      },
+      "properties": {
+        "osm_id": 5260452857,
+        "name": "Europark",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"C\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0534368,
+          47.8252993
+        ]
+      },
+      "properties": {
+        "osm_id": 5286305631,
+        "name": "Landstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0759298,
+          47.8136714
+        ]
+      },
+      "properties": {
+        "osm_id": 5286817741,
+        "name": "Obergnigl",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bus\"=>\"yes\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0376107,
+          47.7894921
+        ]
+      },
+      "properties": {
+        "osm_id": 5286817743,
+        "name": "Schloß Leopoldskron",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"no\",\"bus\"=>\"yes\",\"lit\"=>\"no\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0495656,
+          47.8156757
+        ]
+      },
+      "properties": {
+        "osm_id": 5338799863,
+        "name": "Lastenstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.041252,
+          47.8013073
+        ]
+      },
+      "properties": {
+        "osm_id": 5344935426,
+        "name": "Ferdinand-Hanusch-Platz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0015224,
+          47.8102478
+        ]
+      },
+      "properties": {
+        "osm_id": 5366971936,
+        "name": "Etrichstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0857897,
+          47.7723405
+        ]
+      },
+      "properties": {
+        "osm_id": 5422597062,
+        "name": "Ursulinen",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0810848,
+          47.7789666
+        ]
+      },
+      "properties": {
+        "osm_id": 5422597063,
+        "name": "Valkenauerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.081246,
+          47.782729
+        ]
+      },
+      "properties": {
+        "osm_id": 5422597064,
+        "name": "Josef-Kaut-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0802362,
+          47.7849476
+        ]
+      },
+      "properties": {
+        "osm_id": 5422597065,
+        "name": "Salzachstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0782594,
+          47.7883657
+        ]
+      },
+      "properties": {
+        "osm_id": 5422597066,
+        "name": "Aigen S-Bahn",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.073009,
+          47.7927641
+        ]
+      },
+      "properties": {
+        "osm_id": 5422597067,
+        "name": "Ernst-Grein-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0330859,
+          47.8088679
+        ]
+      },
+      "properties": {
+        "osm_id": 5422597071,
+        "name": "Strubergasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0311316,
+          47.8142258
+        ]
+      },
+      "properties": {
+        "osm_id": 5422597072,
+        "name": "Schule Lehen",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0292896,
+          47.8166334
+        ]
+      },
+      "properties": {
+        "osm_id": 5422597073,
+        "name": "Fasaneriestraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0262916,
+          47.8173792
+        ]
+      },
+      "properties": {
+        "osm_id": 5422597074,
+        "name": "Peilsteinerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0224936,
+          47.8194522
+        ]
+      },
+      "properties": {
+        "osm_id": 5422597075,
+        "name": "Raschenbergstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0212336,
+          47.8211302
+        ]
+      },
+      "properties": {
+        "osm_id": 5422597076,
+        "name": "Bessarabierstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0220963,
+          47.8300333
+        ]
+      },
+      "properties": {
+        "osm_id": 5422597077,
+        "name": "Theodostraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0219578,
+          47.830259
+        ]
+      },
+      "properties": {
+        "osm_id": 5422678508,
+        "name": "Theodostraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0332009,
+          47.8122017
+        ]
+      },
+      "properties": {
+        "osm_id": 5422678509,
+        "name": "Gaswerkgasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"local_ref\"=>\"C\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0666253,
+          47.7979931
+        ]
+      },
+      "properties": {
+        "osm_id": 5422678511,
+        "name": "Finanzamt",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0854075,
+          47.7728371
+        ]
+      },
+      "properties": {
+        "osm_id": 5422678512,
+        "name": "Ursulinen",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.068297,
+          47.8139372
+        ]
+      },
+      "properties": {
+        "osm_id": 5423156389,
+        "name": "Minnesheimstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0590883,
+          47.8072569
+        ]
+      },
+      "properties": {
+        "osm_id": 5423156391,
+        "name": "Canavalstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0478545,
+          47.8057207
+        ]
+      },
+      "properties": {
+        "osm_id": 5423156392,
+        "name": "Wolf-Dietrich-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0313949,
+          47.809062
+        ]
+      },
+      "properties": {
+        "osm_id": 5423156393,
+        "name": "Stadtwerk Lehen",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0263674,
+          47.8106571
+        ]
+      },
+      "properties": {
+        "osm_id": 5423156395,
+        "name": "Esshaverstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0215226,
+          47.8138417
+        ]
+      },
+      "properties": {
+        "osm_id": 5423156396,
+        "name": "Christian-Doppler-Klinik",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0217117,
+          47.8135949
+        ]
+      },
+      "properties": {
+        "osm_id": 5423156397,
+        "name": "Christian-Doppler-Klinik",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0188713,
+          47.8180023
+        ]
+      },
+      "properties": {
+        "osm_id": 5423156398,
+        "name": "Siebenbürgerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0184636,
+          47.8186822
+        ]
+      },
+      "properties": {
+        "osm_id": 5423156399,
+        "name": "Siebenbürgerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0155869,
+          47.8213836
+        ]
+      },
+      "properties": {
+        "osm_id": 5423156400,
+        "name": "Schmiedingerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0018985,
+          47.8307166
+        ]
+      },
+      "properties": {
+        "osm_id": 5423156402,
+        "name": "Saalachstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.000592,
+          47.8324701
+        ]
+      },
+      "properties": {
+        "osm_id": 5423156403,
+        "name": "Eugen-Müller-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.047418,
+          47.8064057
+        ]
+      },
+      "properties": {
+        "osm_id": 5425121976,
+        "name": "Wolf-Dietrich-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0266456,
+          47.8243975
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279880,
+        "name": "Salzburgarena",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0267905,
+          47.8220191
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279882,
+        "name": "Aribonenstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0351174,
+          47.8111101
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279884,
+        "name": "Gaswerkgasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"E\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.037695,
+          47.8109759
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279885,
+        "name": "Saint-Julien-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0397683,
+          47.8142276
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279887,
+        "name": "Jahnstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0427769,
+          47.8058944
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279889,
+        "name": "Mirabellplatz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"A\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0378291,
+          47.7978958
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279890,
+        "name": "Reichenhaller Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.027449,
+          47.7962417
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279891,
+        "name": "Bräuhausstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0259308,
+          47.7961868
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279892,
+        "name": "Bräuhausstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0223366,
+          47.7969867
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279893,
+        "name": "Schwedenstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"local_ref\"=>\"B\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0195512,
+          47.7986516
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279894,
+        "name": "Eichetstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0191971,
+          47.7989345
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279895,
+        "name": "Eichetstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0186982,
+          47.8009803
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279896,
+        "name": "Glansteg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0186097,
+          47.8007362
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279897,
+        "name": "Glansteg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0175503,
+          47.8076848
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279899,
+        "name": "Körblleitengasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0152489,
+          47.8085255
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279900,
+        "name": "Girlingstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0139963,
+          47.808962
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279901,
+        "name": "Girlingstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0116508,
+          47.8095533
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279902,
+        "name": "Freiraum Maxglan",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0111076,
+          47.8097046
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279903,
+        "name": "Freiraum Maxglan",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0092421,
+          47.810195
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279904,
+        "name": "Noppingergasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.008707,
+          47.8103418
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279905,
+        "name": "Noppingergasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0068094,
+          47.812307
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279906,
+        "name": "Doktor-Gmelin-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0073082,
+          47.8127934
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279907,
+        "name": "Doktor-Gmelin-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0090201,
+          47.8155501
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279908,
+        "name": "Europark",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"local_ref\"=>\"A\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0049103,
+          47.8173783
+        ]
+      },
+      "properties": {
+        "osm_id": 5429279909,
+        "name": "IKEA",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0389489,
+          47.8112037
+        ]
+      },
+      "properties": {
+        "osm_id": 5429850014,
+        "name": "Saint-Julien-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0276635,
+          47.8235646
+        ]
+      },
+      "properties": {
+        "osm_id": 5429850015,
+        "name": "Messe",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0720246,
+          47.8124836
+        ]
+      },
+      "properties": {
+        "osm_id": 5431205118,
+        "name": "Reisenbergerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0721775,
+          47.8122926
+        ]
+      },
+      "properties": {
+        "osm_id": 5431205119,
+        "name": "Reisenbergerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0707867,
+          47.8092151
+        ]
+      },
+      "properties": {
+        "osm_id": 5431205120,
+        "name": "Parscher Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0700558,
+          47.8091556
+        ]
+      },
+      "properties": {
+        "osm_id": 5431205621,
+        "name": "Parscher Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0607834,
+          47.8095159
+        ]
+      },
+      "properties": {
+        "osm_id": 5431205622,
+        "name": "Robinigstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0571517,
+          47.80908
+        ]
+      },
+      "properties": {
+        "osm_id": 5431205623,
+        "name": "Vogelweiderstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0558938,
+          47.8089467
+        ]
+      },
+      "properties": {
+        "osm_id": 5431205624,
+        "name": "Vogelweiderstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0524022,
+          47.8086593
+        ]
+      },
+      "properties": {
+        "osm_id": 5431205625,
+        "name": "Bayerhamerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0513045,
+          47.8085774
+        ]
+      },
+      "properties": {
+        "osm_id": 5431205626,
+        "name": "Bayerhamerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0489495,
+          47.8074033
+        ]
+      },
+      "properties": {
+        "osm_id": 5431205627,
+        "name": "Stelzhamerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0294512,
+          47.8114154
+        ]
+      },
+      "properties": {
+        "osm_id": 5431205628,
+        "name": "Roseggerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.029926,
+          47.8113866
+        ]
+      },
+      "properties": {
+        "osm_id": 5431205629,
+        "name": "Roseggerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0266242,
+          47.8078293
+        ]
+      },
+      "properties": {
+        "osm_id": 5431205630,
+        "name": "Aiglhof S-Bahn",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"covered\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0268481,
+          47.807837
+        ]
+      },
+      "properties": {
+        "osm_id": 5431205631,
+        "name": "Aiglhof S-Bahn",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"covered\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0271405,
+          47.806104
+        ]
+      },
+      "properties": {
+        "osm_id": 5431205632,
+        "name": "Aiglhof LKH West",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"B\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.027056,
+          47.8063337
+        ]
+      },
+      "properties": {
+        "osm_id": 5431205633,
+        "name": "Aiglhof LKH West",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"A\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0143759,
+          47.8012686
+        ]
+      },
+      "properties": {
+        "osm_id": 5431205634,
+        "name": "Jodok-Fink-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.012218,
+          47.8002533
+        ]
+      },
+      "properties": {
+        "osm_id": 5431205635,
+        "name": "Michael-Walz-Gasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0118426,
+          47.8000791
+        ]
+      },
+      "properties": {
+        "osm_id": 5431205636,
+        "name": "Michael-Walz-Gasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0086333,
+          47.7987408
+        ]
+      },
+      "properties": {
+        "osm_id": 5431205637,
+        "name": "Karolingerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0074812,
+          47.7982832
+        ]
+      },
+      "properties": {
+        "osm_id": 5431205638,
+        "name": "Karolingerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9967698,
+          47.794057
+        ]
+      },
+      "properties": {
+        "osm_id": 5431205639,
+        "name": "Kröbenfeldstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9967852,
+          47.7911644
+        ]
+      },
+      "properties": {
+        "osm_id": 5431205641,
+        "name": "Airport (Terminal)",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0322293,
+          47.8112479
+        ]
+      },
+      "properties": {
+        "osm_id": 5431334352,
+        "name": "Gaswerkgasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"local_ref\"=>\"B\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0708277,
+          47.7695657
+        ]
+      },
+      "properties": {
+        "osm_id": 5431396668,
+        "name": "Alpensiedlung P+R",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0682239,
+          47.7779986
+        ]
+      },
+      "properties": {
+        "osm_id": 5431396669,
+        "name": "Polizeidirektion",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.067497,
+          47.7814602
+        ]
+      },
+      "properties": {
+        "osm_id": 5431396670,
+        "name": "Herrnau",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0673998,
+          47.7819292
+        ]
+      },
+      "properties": {
+        "osm_id": 5431396671,
+        "name": "Herrnau",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0644312,
+          47.7906936
+        ]
+      },
+      "properties": {
+        "osm_id": 5431396673,
+        "name": "Faistauergasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0446023,
+          47.8170284
+        ]
+      },
+      "properties": {
+        "osm_id": 5431396677,
+        "name": "August-Gruber-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0443858,
+          47.8195732
+        ]
+      },
+      "properties": {
+        "osm_id": 5431396678,
+        "name": "Werkstättenstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.044361,
+          47.8199253
+        ]
+      },
+      "properties": {
+        "osm_id": 5431396679,
+        "name": "Werkstättenstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0465523,
+          47.8242801
+        ]
+      },
+      "properties": {
+        "osm_id": 5431396680,
+        "name": "Goethestraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0467783,
+          47.8245371
+        ]
+      },
+      "properties": {
+        "osm_id": 5431396681,
+        "name": "Goethestraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0506705,
+          47.8246251
+        ]
+      },
+      "properties": {
+        "osm_id": 5431396682,
+        "name": "Zweigstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0514185,
+          47.8242962
+        ]
+      },
+      "properties": {
+        "osm_id": 5431396683,
+        "name": "Zweigstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0396309,
+          47.8264468
+        ]
+      },
+      "properties": {
+        "osm_id": 5437831569,
+        "name": "Itzling West",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0383702,
+          47.8246731
+        ]
+      },
+      "properties": {
+        "osm_id": 5437831570,
+        "name": "Austraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0390576,
+          47.8224346
+        ]
+      },
+      "properties": {
+        "osm_id": 5437831571,
+        "name": "Science City Itzling",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0406964,
+          47.8150206
+        ]
+      },
+      "properties": {
+        "osm_id": 5437831572,
+        "name": "Plainschule",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0657348,
+          47.8008073
+        ]
+      },
+      "properties": {
+        "osm_id": 5437831573,
+        "name": "Campus Borromäum",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"old_name\"=>\"Weichselbaumsiedlung\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0660158,
+          47.800988
+        ]
+      },
+      "properties": {
+        "osm_id": 5437831574,
+        "name": "Campus Borromäum",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"old_name\"=>\"Weichselbaumsiedlung\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0749951,
+          47.8016019
+        ]
+      },
+      "properties": {
+        "osm_id": 5437831575,
+        "name": "Maria-Cebotari-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0277673,
+          47.8049145
+        ]
+      },
+      "properties": {
+        "osm_id": 5440421075,
+        "name": "Aiglhof LKH West",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0273913,
+          47.8055671
+        ]
+      },
+      "properties": {
+        "osm_id": 5440421076,
+        "name": "Aiglhof LKH West",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"C\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0303624,
+          47.8006487
+        ]
+      },
+      "properties": {
+        "osm_id": 5440421077,
+        "name": "Eduard-Baumgartner-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0285549,
+          47.8035776
+        ]
+      },
+      "properties": {
+        "osm_id": 5440421078,
+        "name": "Wartelsteinstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.028799,
+          47.803169
+        ]
+      },
+      "properties": {
+        "osm_id": 5440421079,
+        "name": "Wartelsteinstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0265591,
+          47.8135491
+        ]
+      },
+      "properties": {
+        "osm_id": 5440421080,
+        "name": "Neue Mitte Lehen",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0310929,
+          47.8010605
+        ]
+      },
+      "properties": {
+        "osm_id": 5440459558,
+        "name": "Augustinergasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.033839,
+          47.798749
+        ]
+      },
+      "properties": {
+        "osm_id": 5440459559,
+        "name": "Fürstenbrunnstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0042061,
+          47.8121089
+        ]
+      },
+      "properties": {
+        "osm_id": 5440520384,
+        "name": "Martin-Luther-Platz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0007994,
+          47.8077629
+        ]
+      },
+      "properties": {
+        "osm_id": 5440520385,
+        "name": "Otto-von-Lilienthal-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.001645,
+          47.8078696
+        ]
+      },
+      "properties": {
+        "osm_id": 5440520386,
+        "name": "Otto-von-Lilienthal-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0089976,
+          47.8057046
+        ]
+      },
+      "properties": {
+        "osm_id": 5440520387,
+        "name": "Radingerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.012605,
+          47.8047293
+        ]
+      },
+      "properties": {
+        "osm_id": 5440520388,
+        "name": "Julius-Welser-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0158025,
+          47.804013
+        ]
+      },
+      "properties": {
+        "osm_id": 5440520390,
+        "name": "Volksschule Maxglan",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0302772,
+          47.8030503
+        ]
+      },
+      "properties": {
+        "osm_id": 5440520391,
+        "name": "Willibald-Hauthaler-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0298435,
+          47.8029452
+        ]
+      },
+      "properties": {
+        "osm_id": 5440520392,
+        "name": "Willibald-Hauthaler-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0334097,
+          47.8064668
+        ]
+      },
+      "properties": {
+        "osm_id": 5440520393,
+        "name": "Landeskrankenhaus",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.065837,
+          47.8223456
+        ]
+      },
+      "properties": {
+        "osm_id": 5448404326,
+        "name": "Gewerbehofstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0690109,
+          47.8199503
+        ]
+      },
+      "properties": {
+        "osm_id": 5448404327,
+        "name": "Siedlerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0693839,
+          47.8196977
+        ]
+      },
+      "properties": {
+        "osm_id": 5448404328,
+        "name": "Siedlerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0660019,
+          47.8066669
+        ]
+      },
+      "properties": {
+        "osm_id": 5448404329,
+        "name": "Fürbergstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0181792,
+          47.7952129
+        ]
+      },
+      "properties": {
+        "osm_id": 5448404330,
+        "name": "Kugelhofstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0101823,
+          47.7928279
+        ]
+      },
+      "properties": {
+        "osm_id": 5448404331,
+        "name": "Pressezentrum/Kuglhof",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0083094,
+          47.7970751
+        ]
+      },
+      "properties": {
+        "osm_id": 5448404332,
+        "name": "Siegfried-Marcus-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0658283,
+          47.7854594
+        ]
+      },
+      "properties": {
+        "osm_id": 5448473905,
+        "name": "Josefiau",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"yes\",\"bus\"=>\"yes\",\"local_ref\"=>\"B\",\"public_transport\"=>\"stop_position\",\"shelter\"=>\"no\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0488259,
+          47.8088982
+        ]
+      },
+      "properties": {
+        "osm_id": 5448473906,
+        "name": "Paracelsusstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.04554,
+          47.8101578
+        ]
+      },
+      "properties": {
+        "osm_id": 5448473907,
+        "name": "Nelböckviadukt",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0186596,
+          47.8049487
+        ]
+      },
+      "properties": {
+        "osm_id": 5448494848,
+        "name": "Hans-Schmid-Platz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"C\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0434135,
+          47.8045079
+        ]
+      },
+      "properties": {
+        "osm_id": 5455351578,
+        "name": "Mirabellplatz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"no\",\"bus\"=>\"yes\",\"lit\"=>\"yes\",\"local_ref\"=>\"F\",\"passenger_information_display\"=>\"yes\",\"public_transport\"=>\"platform\",\"route_ref\"=>\"151\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0396914,
+          47.8050224
+        ]
+      },
+      "properties": {
+        "osm_id": 5455351579,
+        "name": "Mirabellgarten",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0395537,
+          47.8052543
+        ]
+      },
+      "properties": {
+        "osm_id": 5455351580,
+        "name": "Mirabellgarten",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0555628,
+          47.7943642
+        ]
+      },
+      "properties": {
+        "osm_id": 5455469714,
+        "name": "Ulrike-Gschwandtner-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0235357,
+          47.7985047
+        ]
+      },
+      "properties": {
+        "osm_id": 5455469715,
+        "name": "Neue Mittelschule Maxglan",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0222888,
+          47.797224
+        ]
+      },
+      "properties": {
+        "osm_id": 5455469716,
+        "name": "Schwedenstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"D\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0191821,
+          47.7925156
+        ]
+      },
+      "properties": {
+        "osm_id": 5455469717,
+        "name": "Richard-Knoller-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0077683,
+          47.7800229
+        ]
+      },
+      "properties": {
+        "osm_id": 5455469718,
+        "name": "Kräutlerweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0056377,
+          47.7795642
+        ]
+      },
+      "properties": {
+        "osm_id": 5455469719,
+        "name": "Heimstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.003599,
+          47.7795272
+        ]
+      },
+      "properties": {
+        "osm_id": 5455469720,
+        "name": "Kendlersiedlung",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0030248,
+          47.7796886
+        ]
+      },
+      "properties": {
+        "osm_id": 5455473421,
+        "name": "Kendlersiedlung",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0286127,
+          47.8026449
+        ]
+      },
+      "properties": {
+        "osm_id": 5455504191,
+        "name": "Willibald-Hauthaler-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0147824,
+          47.7539097
+        ]
+      },
+      "properties": {
+        "osm_id": 5462227389,
+        "name": "Lehrbauhof",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0165241,
+          47.7604575
+        ]
+      },
+      "properties": {
+        "osm_id": 5462227390,
+        "name": "Hammerauer Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0204571,
+          47.7706112
+        ]
+      },
+      "properties": {
+        "osm_id": 5462227393,
+        "name": "Sendlweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0233017,
+          47.7779482
+        ]
+      },
+      "properties": {
+        "osm_id": 5462227394,
+        "name": "Gsengerweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0243483,
+          47.7806076
+        ]
+      },
+      "properties": {
+        "osm_id": 5462227396,
+        "name": "Volksschule Moos",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0242395,
+          47.7803289
+        ]
+      },
+      "properties": {
+        "osm_id": 5462227397,
+        "name": "Volksschule Moos",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0257289,
+          47.7841892
+        ]
+      },
+      "properties": {
+        "osm_id": 5462227398,
+        "name": "Firmianstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0260248,
+          47.7849539
+        ]
+      },
+      "properties": {
+        "osm_id": 5462227399,
+        "name": "Firmianstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0285352,
+          47.7916631
+        ]
+      },
+      "properties": {
+        "osm_id": 5462227401,
+        "name": "Nußdorfer Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0284085,
+          47.7913054
+        ]
+      },
+      "properties": {
+        "osm_id": 5462227402,
+        "name": "Nußdorfer Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.033032,
+          47.7940169
+        ]
+      },
+      "properties": {
+        "osm_id": 5462227403,
+        "name": "Akademisches Gymnasium",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0307897,
+          47.79487
+        ]
+      },
+      "properties": {
+        "osm_id": 5462227404,
+        "name": "Sinnhubstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0295236,
+          47.7943011
+        ]
+      },
+      "properties": {
+        "osm_id": 5462227405,
+        "name": "Gorianstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0473235,
+          47.8081381
+        ]
+      },
+      "properties": {
+        "osm_id": 5462227406,
+        "name": "Auerspergstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0467755,
+          47.8075292
+        ]
+      },
+      "properties": {
+        "osm_id": 5462227407,
+        "name": "Auerspergstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0486692,
+          47.8094947
+        ]
+      },
+      "properties": {
+        "osm_id": 5462227408,
+        "name": "Paracelsusstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0502822,
+          47.8116894
+        ]
+      },
+      "properties": {
+        "osm_id": 5462227409,
+        "name": "Merianstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0503065,
+          47.8114971
+        ]
+      },
+      "properties": {
+        "osm_id": 5462227410,
+        "name": "Merianstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0533845,
+          47.8134028
+        ]
+      },
+      "properties": {
+        "osm_id": 5462227411,
+        "name": "Breitenfelderstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0541979,
+          47.8127222
+        ]
+      },
+      "properties": {
+        "osm_id": 5462227412,
+        "name": "Breitenfelderstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0531573,
+          47.8188943
+        ]
+      },
+      "properties": {
+        "osm_id": 5462227413,
+        "name": "Poschinger Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"route_ref\"=>\"21\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0588295,
+          47.8327834
+        ]
+      },
+      "properties": {
+        "osm_id": 5462227416,
+        "name": "Schererstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0589005,
+          47.8322333
+        ]
+      },
+      "properties": {
+        "osm_id": 5462227417,
+        "name": "Schererstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0205657,
+          47.8400351
+        ]
+      },
+      "properties": {
+        "osm_id": 5462227924,
+        "name": "Bergheim S-Bahn",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0224078,
+          47.7756396
+        ]
+      },
+      "properties": {
+        "osm_id": 5462424131,
+        "name": "Marienbad",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0618288,
+          47.7886973
+        ]
+      },
+      "properties": {
+        "osm_id": 5462597472,
+        "name": "Michael-Pacher-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0579002,
+          47.7857821
+        ]
+      },
+      "properties": {
+        "osm_id": 5462597473,
+        "name": "Freisaalweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0572895,
+          47.7858555
+        ]
+      },
+      "properties": {
+        "osm_id": 5462597474,
+        "name": "Freisaalweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0397667,
+          47.7808622
+        ]
+      },
+      "properties": {
+        "osm_id": 5462597475,
+        "name": "König-Ludwig-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0361989,
+          47.7806486
+        ]
+      },
+      "properties": {
+        "osm_id": 5462597476,
+        "name": "Konstanze-Weber-Gasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0318438,
+          47.7805455
+        ]
+      },
+      "properties": {
+        "osm_id": 5462597477,
+        "name": "Sandor-Vegh-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0311243,
+          47.7805328
+        ]
+      },
+      "properties": {
+        "osm_id": 5462597478,
+        "name": "Sandor-Vegh-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0304004,
+          47.7830967
+        ]
+      },
+      "properties": {
+        "osm_id": 5462597479,
+        "name": "Zwieselweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0307658,
+          47.7855252
+        ]
+      },
+      "properties": {
+        "osm_id": 5462597480,
+        "name": "Wartbergweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.030804,
+          47.7858393
+        ]
+      },
+      "properties": {
+        "osm_id": 5462597481,
+        "name": "Wartbergweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0455324,
+          47.8076674
+        ]
+      },
+      "properties": {
+        "osm_id": 5462597482,
+        "name": "Haydnstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0453172,
+          47.8092303
+        ]
+      },
+      "properties": {
+        "osm_id": 5462597483,
+        "name": "Wirtschaftskammer",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0478988,
+          47.813923
+        ]
+      },
+      "properties": {
+        "osm_id": 5462597486,
+        "name": "Weiserhofstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.047664,
+          47.8136155
+        ]
+      },
+      "properties": {
+        "osm_id": 5462597487,
+        "name": "Weiserhofstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0566746,
+          47.816409
+        ]
+      },
+      "properties": {
+        "osm_id": 5462597490,
+        "name": "Steinhauserstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0266196,
+          47.7848628
+        ]
+      },
+      "properties": {
+        "osm_id": 5463269475,
+        "name": "Firmianstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0388865,
+          47.8106419
+        ]
+      },
+      "properties": {
+        "osm_id": 5463419837,
+        "name": "Saint-Julien-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0486102,
+          47.8220199
+        ]
+      },
+      "properties": {
+        "osm_id": 5463419838,
+        "name": "Schopperstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0490916,
+          47.8224702
+        ]
+      },
+      "properties": {
+        "osm_id": 5463419839,
+        "name": "Schopperstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.064912,
+          47.8232436
+        ]
+      },
+      "properties": {
+        "osm_id": 5463419843,
+        "name": "Hannakstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0632948,
+          47.8201109
+        ]
+      },
+      "properties": {
+        "osm_id": 5463419846,
+        "name": "Sam S-Bahn",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0638114,
+          47.820071
+        ]
+      },
+      "properties": {
+        "osm_id": 5463419847,
+        "name": "Sam S-Bahn",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0700431,
+          47.8057694
+        ]
+      },
+      "properties": {
+        "osm_id": 5463419848,
+        "name": "Schlossstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0699711,
+          47.8059498
+        ]
+      },
+      "properties": {
+        "osm_id": 5463419849,
+        "name": "Schlossstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0732088,
+          47.8040413
+        ]
+      },
+      "properties": {
+        "osm_id": 5463454235,
+        "name": "Hugo-von-Hofmannsthal-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.041877,
+          47.7910833
+        ]
+      },
+      "properties": {
+        "osm_id": 5478170174,
+        "name": "Karl-Höller-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9996393,
+          47.8324558
+        ]
+      },
+      "properties": {
+        "osm_id": 5478299029,
+        "name": "Rott",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9994641,
+          47.832463
+        ]
+      },
+      "properties": {
+        "osm_id": 5478299030,
+        "name": "Rott",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0585259,
+          47.7730288
+        ]
+      },
+      "properties": {
+        "osm_id": 5478462463,
+        "name": "Flurweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0562453,
+          47.7800133
+        ]
+      },
+      "properties": {
+        "osm_id": 5478462464,
+        "name": "Kleingmain",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0503678,
+          47.7865801
+        ]
+      },
+      "properties": {
+        "osm_id": 5478462466,
+        "name": "Beethovenstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0475557,
+          47.7899317
+        ]
+      },
+      "properties": {
+        "osm_id": 5478462467,
+        "name": "Seniorenheim Nonntal",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0474507,
+          47.7901377
+        ]
+      },
+      "properties": {
+        "osm_id": 5478462468,
+        "name": "Seniorenheim Nonntal",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0103826,
+          47.8159146
+        ]
+      },
+      "properties": {
+        "osm_id": 5489010128,
+        "name": "Europark",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"D\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0444473,
+          47.8139793
+        ]
+      },
+      "properties": {
+        "osm_id": 5496264970,
+        "name": "Hauptbahnhof",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"J\",\"public_transport\"=>\"stop_position\",\"wheelchair\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0281097,
+          47.8189082
+        ]
+      },
+      "properties": {
+        "osm_id": 5616806424,
+        "name": "Glanzeile",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0480778,
+          47.8141555
+        ]
+      },
+      "properties": {
+        "osm_id": 5649719722,
+        "name": "Flixbus Salzburg Hauptbahnhof",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"route_ref\"=>\"Flixbus 362\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0430109,
+          47.8055504
+        ]
+      },
+      "properties": {
+        "osm_id": 5760768392,
+        "name": "Mirabellplatz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"G\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0271375,
+          47.8088144
+        ]
+      },
+      "properties": {
+        "osm_id": 6088231533,
+        "name": "Kuenburgstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0707568,
+          47.7700084
+        ]
+      },
+      "properties": {
+        "osm_id": 6154436470,
+        "name": "Salzburg Süd, Hellbrunner Landesstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"network\"=>\"Flixbus\",\"network:wikidata\"=>\"Q15712258\",\"operator\"=>\"Flixbus\",\"public_transport\"=>\"stop_position\",\"route_ref\"=>\"Flixbus 086, 236, 424, 545, 861, 944, 1305, 1929, N86, N336, N391, N468, N862, N867, N880, N948, N965, N978, N981, N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0427328,
+          47.8103787
+        ]
+      },
+      "properties": {
+        "osm_id": 6343642395,
+        "name": "Salzburg Kiesel",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"B\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.070839,
+          47.7700465
+        ]
+      },
+      "properties": {
+        "osm_id": 6768688426,
+        "name": "Salzburg Süd, Hellbrunner Landesstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"platform\",\"route_ref\"=>\"Flixbus 086, 236, 424, 545, 861, 944, 1305, 1929, N86, N336, N391, N468, N862, N867, N880, N948, N965, N978, N981, N1545\",\"shelter\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0547954,
+          47.8098793
+        ]
+      },
+      "properties": {
+        "osm_id": 6777122828,
+        "name": "Salzburg Pauernfeindstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"no\",\"bus\"=>\"yes\",\"lit\"=>\"yes\",\"public_transport\"=>\"platform\",\"route_ref\"=>\"120;140\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0424418,
+          47.8203221
+        ]
+      },
+      "properties": {
+        "osm_id": 6827975441,
+        "name": "Andreas-Hofer-Straße/Postbus",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"platform\",\"route_ref\"=>\"270\",\"shelter\"=>\"yes\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0441008,
+          47.8031522
+        ]
+      },
+      "properties": {
+        "osm_id": 6844182480,
+        "name": "Makartplatz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"B\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0217667,
+          47.7972494
+        ]
+      },
+      "properties": {
+        "osm_id": 6900349756,
+        "name": "Schwedenstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": 1,
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"local_ref\"=>\"A\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0434537,
+          47.8045268
+        ]
+      },
+      "properties": {
+        "osm_id": 6905022215,
+        "name": "Salzburg Mirabellplatz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"F\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.103264,
+          47.7964701
+        ]
+      },
+      "properties": {
+        "osm_id": 6911977742,
+        "name": "Gaisberg Zahnradbahntrasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1023113,
+          47.797051
+        ]
+      },
+      "properties": {
+        "osm_id": 6911977743,
+        "name": "Gaisberg Zahnradbahntrasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"no\",\"bus\"=>\"yes\",\"lit\"=>\"no\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1112928,
+          47.7856703
+        ]
+      },
+      "properties": {
+        "osm_id": 6911977744,
+        "name": "Gaisberg Rauchenbühelkehre",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"no\",\"bus\"=>\"yes\",\"kerb\"=>\"no\",\"lit\"=>\"no\",\"passenger_information_display\"=>\"no\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1110802,
+          47.7857234
+        ]
+      },
+      "properties": {
+        "osm_id": 6911977745,
+        "name": "Gaisberg Rauchenbühelkehre",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"no\",\"bus\"=>\"yes\",\"kerb\"=>\"no\",\"lit\"=>\"no\",\"passenger_information_display\"=>\"no\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1237081,
+          47.8032125
+        ]
+      },
+      "properties": {
+        "osm_id": 6911977746,
+        "name": "Gaisberg Nocksteinkehre",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"no\",\"bus\"=>\"yes\",\"kerb\"=>\"no\",\"lit\"=>\"no\",\"passenger_information_display\"=>\"no\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1232575,
+          47.8033981
+        ]
+      },
+      "properties": {
+        "osm_id": 6911977747,
+        "name": "Gaisberg Nocksteinkehre",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"no\",\"bus\"=>\"yes\",\"lit\"=>\"no\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0393754,
+          47.7602432
+        ]
+      },
+      "properties": {
+        "osm_id": 6932310145,
+        "name": "Weidenstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0082852,
+          47.7973179
+        ]
+      },
+      "properties": {
+        "osm_id": 6945446660,
+        "name": "Siegfried-Marcus-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.019342,
+          47.7677239
+        ]
+      },
+      "properties": {
+        "osm_id": 6948619791,
+        "name": "Kräuterhofweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0294479,
+          47.7941083
+        ]
+      },
+      "properties": {
+        "osm_id": 6949145383,
+        "name": "Gorianstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0559588,
+          47.8156186
+        ]
+      },
+      "properties": {
+        "osm_id": 6959415551,
+        "name": "Steinhauserstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0648591,
+          47.8273825
+        ]
+      },
+      "properties": {
+        "osm_id": 6960353605,
+        "name": "Langmoosweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0629158,
+          47.8231583
+        ]
+      },
+      "properties": {
+        "osm_id": 6961510138,
+        "name": "Warwitzstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.025452,
+          47.8017523
+        ]
+      },
+      "properties": {
+        "osm_id": 6968390770,
+        "name": "Römergasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0058458,
+          47.7797213
+        ]
+      },
+      "properties": {
+        "osm_id": 6968553013,
+        "name": "Heimstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.018823,
+          47.7888384
+        ]
+      },
+      "properties": {
+        "osm_id": 6968553061,
+        "name": "Bergerhof",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0049358,
+          47.8159275
+        ]
+      },
+      "properties": {
+        "osm_id": 6993045952,
+        "name": "Europark",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"E\",\"public_transport\"=>\"platform\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0707105,
+          47.7699656
+        ]
+      },
+      "properties": {
+        "osm_id": 7117882585,
+        "name": "Salzburg Süd, Hellbrunner Landesstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"name:en\"=>\"Flix bus to Munich since 2020\",\"public_transport\"=>\"platform\",\"route_ref\"=>\"Flixbus 086, 236, 424, 545, 861, 944, 1305, 1929, N86, N336, N391, N468, N862, N867, N880, N948, N965, N978, N981, N1545\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0443154,
+          47.813032
+        ]
+      },
+      "properties": {
+        "osm_id": 7151981140,
+        "name": "Hauptbahnhof",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"E\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0442228,
+          47.812901
+        ]
+      },
+      "properties": {
+        "osm_id": 7151981141,
+        "name": "Hauptbahnhof",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"C\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0441487,
+          47.8127754
+        ]
+      },
+      "properties": {
+        "osm_id": 7151981142,
+        "name": "Hauptbahnhof",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"A\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0429052,
+          47.8057117
+        ]
+      },
+      "properties": {
+        "osm_id": 7153360041,
+        "name": "Mirabellplatz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"B\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0427261,
+          47.8059675
+        ]
+      },
+      "properties": {
+        "osm_id": 7153360042,
+        "name": "Mirabellplatz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"H\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0186614,
+          47.8048105
+        ]
+      },
+      "properties": {
+        "osm_id": 7153498716,
+        "name": "Hans-Schmid-Platz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"D\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0185708,
+          47.8036098
+        ]
+      },
+      "properties": {
+        "osm_id": 7153498718,
+        "name": "Hans-Schmid-Platz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"B\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0348398,
+          47.8111218
+        ]
+      },
+      "properties": {
+        "osm_id": 7153498722,
+        "name": "Gaswerkgasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"A\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0423057,
+          47.8029567
+        ]
+      },
+      "properties": {
+        "osm_id": 7153498723,
+        "name": "Makartplatz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"E\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0224681,
+          47.7969273
+        ]
+      },
+      "properties": {
+        "osm_id": 7158215223,
+        "name": "Schwedenstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"local_ref\"=>\"E\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0223997,
+          47.7973381
+        ]
+      },
+      "properties": {
+        "osm_id": 7158215224,
+        "name": "Schwedenstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"C\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0419651,
+          47.81073
+        ]
+      },
+      "properties": {
+        "osm_id": 7158215225,
+        "name": "Kiesel",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"local_ref\"=>\"E\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0424298,
+          47.8101603
+        ]
+      },
+      "properties": {
+        "osm_id": 7158215226,
+        "name": "Salzburg Kiesel",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"local_ref\"=>\"C\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0424051,
+          47.7806509
+        ]
+      },
+      "properties": {
+        "osm_id": 8475101710,
+        "name": "Neukommgasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"yes\",\"bin\"=>\"yes\",\"bus\"=>\"yes\",\"departures_board\"=>\"timetable\",\"lit\"=>\"yes\",\"public_transport\"=>\"platform\",\"shelter\"=>\"yes\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0428272,
+          47.7805271
+        ]
+      },
+      "properties": {
+        "osm_id": 8475101711,
+        "name": "Neukommgasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"no\",\"bin\"=>\"no\",\"lit\"=>\"yes\",\"public_transport\"=>\"platform\",\"shelter\"=>\"no\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0532309,
+          47.8183296
+        ]
+      },
+      "properties": {
+        "osm_id": 8914068151,
+        "name": "Poschingerstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"route_ref\"=>\"21\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0315224,
+          47.7976768
+        ]
+      },
+      "properties": {
+        "osm_id": 9825213828,
+        "name": "Quartier Riedenburg (B)",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"departures_board\"=>\"timetable\",\"local_ref\"=>\"B\",\"public_transport\"=>\"stop_position\",\"shelter\"=>\"yes\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0322254,
+          47.7976129
+        ]
+      },
+      "properties": {
+        "osm_id": 9825213829,
+        "name": "Quartier Riedenburg (A)",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"local_ref\"=>\"A\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0600941,
+          47.8074467
+        ]
+      },
+      "properties": {
+        "osm_id": 10081681417,
+        "name": "Canavalstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bench\"=>\"yes\",\"bin\"=>\"yes\",\"bus\"=>\"yes\",\"lit\"=>\"yes\",\"public_transport\"=>\"platform\",\"shelter\"=>\"yes\",\"tactile_paving\"=>\"no\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0066763,
+          47.8284545
+        ]
+      },
+      "properties": {
+        "osm_id": 11204803334,
+        "name": "Lieferinger Spitz",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.009536,
+          47.8276778
+        ]
+      },
+      "properties": {
+        "osm_id": 11204803335,
+        "name": "Fischergasse",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"public_transport\"=>\"stop_position\",\"trolleybus\"=>\"yes\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9961755,
+          47.8348607
+        ]
+      },
+      "properties": {
+        "osm_id": 12090462740,
+        "name": "Saalbrücke",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9960871,
+          47.8347721
+        ]
+      },
+      "properties": {
+        "osm_id": 12090462741,
+        "name": "Saalbrücke",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0416657,
+          47.7919329
+        ]
+      },
+      "properties": {
+        "osm_id": 12586153623,
+        "name": "Karl-Höller-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"platform\",\"route_ref\"=>\"11\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.059183,
+          47.8160416
+        ]
+      },
+      "properties": {
+        "osm_id": 12595024626,
+        "name": "Vilniusstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0588421,
+          47.8166059
+        ]
+      },
+      "properties": {
+        "osm_id": 12595024631,
+        "name": "Vilniusstraße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.056927,
+          47.8197535
+        ]
+      },
+      "properties": {
+        "osm_id": 12595024637,
+        "name": "Meierhofweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0566184,
+          47.8198719
+        ]
+      },
+      "properties": {
+        "osm_id": 12595024638,
+        "name": "Meierhofweg",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.056322,
+          47.8225039
+        ]
+      },
+      "properties": {
+        "osm_id": 12595024643,
+        "name": "Schule Schallmoos",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0588538,
+          47.8222099
+        ]
+      },
+      "properties": {
+        "osm_id": 12595024644,
+        "name": "Hans-Knoll-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0603845,
+          47.7955732
+        ]
+      },
+      "properties": {
+        "osm_id": 12714139405,
+        "name": "Prälat-Winkler-Straße",
+        "barrier": "",
+        "highway": "bus_stop",
+        "ref": "",
+        "address": "",
+        "is_in": "",
+        "place": "",
+        "man_made": "",
+        "other_tags": "\"bus\"=>\"yes\",\"public_transport\"=>\"stop_position\""
+      }
+    }
+  ]
+}
