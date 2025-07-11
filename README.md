@@ -348,4 +348,91 @@ function setupLandmarkClick() {
       });
 ```
 
-15 (6).
+15 (6).Sort by distance from smallest to largest and select the top five. Obtain landmark data attributes, name, description, image link, and detailed information link.
+```
+      // Sort and pick nearest 5
+      distances.sort((a, b) => a.distance - b.distance);
+      const nearest = distances.slice(0, 5); // Get the 5 closest stations
+
+      // Get landmark properties
+      const props = layer.feature?.properties || {};
+      const landmarkName = props.NAME || 'Selected Landmark';
+      const introduction = props.brief_intr || 'No introduction available.';
+      const imageURL = props.picture_UR || null;
+      const linkURL = props.link || null;
+```
+
+15 (7). Bind a new pop-up window to store HTML content, use pop-up window styles in CSS, set titles, introductions, insert images, and links.
+```
+let popupContent = `
+    <div class="landmark-popup-content">
+    <h4>${landmarkName}</h4>
+    <p>${introduction}</p>
+`;
+
+// Add image if present
+if (imageURL) {
+  popupContent += `<img src="${imageURL}" alt="${landmarkName}" style="width:100%;height:auto;border-radius:4px;margin-bottom:8px;">`; // Add landmark image with responsive styling and rounded corners
+}
+
+// Add link if present
+if (linkURL) {
+  popupContent += `<p><a href="${linkURL}" target="_blank">More Info</a></p>`;
+}
+```
+
+15 (8). Display the five nearest stations in a pop-up window, with the display style set as follows. Highlight the icons and link them with lines to complete the pop-up window content. Finally, display the pop-up window on the map after a click event occurs.
+```
+popupContent += `<strong>Nearest Stations:</strong><ul>`;
+
+      nearest.forEach(stop => {
+        popupContent += `<li>${stop.name}: ${stop.distance.toFixed(2)} km</li>`; // Display the station name and distance to the landmark.
+
+        // Highlight the station
+        stop.layer.setIcon(highlightIcon);
+
+        // Rebind popup
+        stop.layer.bindPopup("Station Name: " + stop.name);
+
+        // Draw connection line
+        L.polyline([clickedLatLng, stop.latlng], {
+          color: 'blue',
+          weight: 2,
+          dashArray: '4,6'
+        }).addTo(map);
+      });
+      popupContent += `</ul>`; // Close the stations list
+
+      // Show landmark popup
+  className: 'landmark-popup',
+      L.popup({ className: 'landmark-popup', offset: [0, -20] })  //  custom class for CSS
+      .setLatLng(clickedLatLng)
+      .setContent(popupContent)
+      .openOn(map);
+    });
+  });
+}
+```
+
+15 (9). Define the distance calculation function. Then call the click function.
+```
+function getDistance(lat1, lon1, lat2, lon2) {
+  const R = 6371; // Radius of Earth in km
+  // Converts degrees to radians.
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLon = (lon2 - lon1) * Math.PI / 180;
+  // Part (a) of the formula.
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+    Math.sin(dLon / 2) * Math.sin(dLon / 2);
+    // Part (c) of the formula
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  // Return distance
+  return R * c;
+}
+
+setupLandmarkClick();
+```
+
+16. 
