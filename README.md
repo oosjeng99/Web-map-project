@@ -9,4 +9,4 @@ Some code explanations：
 // cancel the double-click to zoom in
 map.doubleClickZoom.disable();
 
-2. 
+2. hello
