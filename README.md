@@ -56,4 +56,101 @@ var highlightIcon = L.icon({
 });
 ```
 
-5. 
+5. The next part is to display the data that will be used on the map. Here, the style of the bus route is defined and displayed on the map, with a pop-up window and its contents bound to it. An event is defined to display a larger icon when the mouse hovers over it, and the icon is reset when the mouse is moved away.
+```
+var busline = L.geoJson(busline, {
+  style: {
+    color: '#2196F3',
+    weight: 3,
+    opacity: 0.85
+  },
+    onEachFeature: function (feature, layer) {
+    if (feature.properties && feature.properties.name) {
+      layer.bindPopup("Line Name: " + feature.properties.name);
+    }
+// Add an event that highlights the target when the mouse hovers over it.
+// Note that the highlingtfeature and resetHighlight functions are defined at the very bottom (in Part 4: adding some events to the map).
+    layer.on({
+      mouseover: highlightFeature,
+      mouseout: resetHighlight
+    });
+  }
+});
+```
+
+6.Defining bicycle routes
+```
+var bikeway = L.geoJson(bikeway, {
+  style:{
+  color: '#8A2BE2',
+  weight: 3,
+  opacity: 0.85
+}
+});
+```
+
+7. Different line icons are used for city boundaries. Here, overlapping lines are used, and two line elements are combined into one to display symbols of different styles.
+```
+var boundaryOuter = L.geoJson(SBGboundary, {
+  style: {
+    color: 'black',
+    weight: 8,
+    opacity: 0.5
+  }
+});
+
+var boundaryInner = L.geoJson(SBGboundary, {
+  style: {
+    color: '#DC143C',
+    weight: 4,
+    dashArray: '8, 8',
+    opacity: 0.85
+  }
+});
+// group boundary.
+var boundary = L.layerGroup([boundaryOuter, boundaryInner]);
+// footpath features
+var footpath = L.geoJson(footpath,{
+  style: {
+  color: 'darkorange',
+  weight: 3,
+  opacity: 0.85
+  }
+});
+```
+
+8. Defining bicycle routes
+```
+var footpath = L.geoJson(footpath,{
+  style: {
+  color: 'darkorange',
+  weight: 3,
+  opacity: 0.85
+  }
+});
+```
+
+9. This defines how bus stations features are displayed, showing each point feature as a predefined icon and binding a pop-up window to it. It also defines an event that highlights the icon when the mouse hovers over it.
+```
+var station = L.geoJson(busstation, {
+  pointToLayer: function (feature, latlng) {
+    return L.marker(latlng, { icon: stationIcon });
+  },
+  onEachFeature: function (feature, layer) {
+    if (feature.properties && feature.properties.name) {
+      layer.bindPopup("Station Name: " + feature.properties.name);
+    }
+    // Highlight on hover
+    layer.on({
+      mouseover: function () {
+        layer.setIcon(hangoverIcon); // change icon on hover
+      },
+      mouseout: function () {
+        layer.setIcon(stationIcon); // revert on mouse out
+      }
+    });
+  }
+});
+```
+
+10. 
