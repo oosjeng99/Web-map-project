@@ -33,8 +33,9 @@ var baseMaps = {
 
 // add a layer control for basemap.
 L.control.layers(baseMaps).addTo(map);
-//
-//
+// // Add a scale bar to the map in the bottom right corner.
+// The scale bar shows distances using only metric units (meters and kilometers),
+// helping users estimate real-world distances on the map.
 L.control.scale({ position: 'bottomright', imperial: false }).addTo(map);
 //
 
@@ -238,7 +239,7 @@ L.Control.Control2Layers = L.Control.extend({
   },
 });
 
-// Factory function (Created a new icon of control button.)
+// Factory function for creating a new instance of the custom control.
 L.control2 = function (options) {
   return new L.Control.Control2Layers(options);
 };
@@ -386,7 +387,8 @@ popupContent += `<strong>Nearest Stations:</strong><ul>`;
       popupContent += `</ul>`; // Close the stations list
 
       // Show landmark popup
-      L.popup({ className: 'landmark-popup' })  //  custom class for CSS
+  className: 'landmark-popup',
+      L.popup({ className: 'landmark-popup', offset: [0, -20] })  //  custom class for CSS
       .setLatLng(clickedLatLng)
       .setContent(popupContent)
       .openOn(map);
@@ -617,10 +619,10 @@ map.on("click", function() { // when the user clicks on the map.
   }
 
   // Remove the lines if they exist
-  if (map.myLocationLines) {
-    map.myLocationLines.forEach(line => map.removeLayer(line)); // remove the lines.
-    map.myLocationLines = []; // reset the line array.
-  }
+  // if (map.myLocationLines) {
+  //   map.myLocationLines.forEach(line => map.removeLayer(line)); // remove the lines.
+  //   map.myLocationLines = []; // reset the line array.
+  // }
 });
 
 // Event: add a home function
