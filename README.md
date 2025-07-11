@@ -6,4 +6,4 @@ Some code explanations：
   zoom: 15
 });
 // cancel the double-click to zoom in
-map.doubleClickZoom.disable();
+map.doubleClickZoom.disable();``` 
