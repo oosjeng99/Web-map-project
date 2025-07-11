@@ -435,4 +435,361 @@ function getDistance(lat1, lon1, lat2, lon2) {
 setupLandmarkClick();
 ```
 
-16. 
+16 (1). Add a search function, add a search button, a click event, and a search box for entering text. Check if the search box is empty and define a variable to mark whether the target is found.
+```
+document.getElementById('searchButton').addEventListener('click', function() { // Add search functionality for stations and landmarks
+  const query = document.getElementById('searchBox').value.trim().toLowerCase(); // Get search query and convert to lowercase
+
+  if (!query) { // Check if search query is empty
+    alert("Please enter a name.");
+    return;
+  }
+
+  let found = false; // Flag to track if search result was found
+```
+
+16 (2). Search for stations and landmarks, as the search is based on the name entered. First, iterate through each station and store all station names in an array. Check if the entered name is in the array. If it is, zoom in on the target station and open a pop-up window, marking the search as true. If it is not found, repeat the above process for all landmarks. If there is still no matching name, display a alert indicating that there is no match.
+```
+  station.eachLayer(layer => {
+    const name = layer.feature?.properties?.name?.toLowerCase();
+    if (name && name === query) { // Check if station name matches search query exactly
+      map.setView(layer.getLatLng(), 17); // Zoom to the station
+      layer.openPopup();// open popup window
+      found = true; // set found to true.
+    }
+  });
+
+  // If not found, search landmarks
+  if (!found) { // if not found, search landmarks
+    landmarks.eachLayer(layer => {
+      const name = layer.feature?.properties?.NAME?.toLowerCase(); // Get landmark name and convert to lowercase
+      if (name && name === query) { // check if landmark name matches search query exactly
+        map.setView(layer.getLatLng(), 17); //zoom to the landmark
+        layer.openPopup();
+        found = true;
+      }
+    });
+  }
+
+  if (!found) { // if not found, show alert
+    alert("No matching station or landmark found.");
+  }
+});
+```
+
+17 (1). Add my location function. Set up a button, define the button's position, title, style, and icon.
+```
+// Add a My Location feature
+const locateControl = L.control({ position: 'topleft' }); // creat a control button for my location
+
+locateControl.onAdd = function(map) { // Define the control button creation function 
+  const btn = L.DomUtil.create('button', 'leaflet-bar leaflet-control leaflet-control-custom'); // Create the location button element 
+  btn.title = 'Show my location'; // set the title of the button
+
+  // Style the button
+  btn.style.width = '34px';
+  btn.style.height = '34px';
+  btn.style.backgroundColor = 'white';
+  btn.style.border = 'none';
+  btn.style.cursor = 'pointer';
+  btn.style.padding = '0';
+
+  // Add your location icon
+  const img = document.createElement('img'); // Create image element for location icon 
+  img.src = 'css/images/location.png'; // path to your icon
+  img.style.width = '100%';
+  img.style.height = '100%';
+  img.style.objectFit = 'cover'; // ensure the image cover the button area
+  img.alt = 'My Location'; // set the alt text for the image.
+
+  btn.appendChild(img); // Add the image element as a child of the button to display the location icon 
+```
+
+17 (2). Disable map click events. When the user clicks on the My Location icon, locate and zoom in on the user's location. Add control buttons to the map.
+```
+  // Prevent map clicks from triggering
+  L.DomEvent.disableClickPropagation(btn);
+
+      // When clicked, locate the user
+    btn.onclick = function() {
+      // Locate the user's location and zoom to the location
+      // Uses HTML5 Geolocation API, requires user permission, accuracy varies by device (GPS/WiFi/cell towers)
+      map.locate({ setView: true, maxZoom: 17 }); 
+    };
+
+  return btn; // return the button element to be added to the map
+};
+
+locateControl.addTo(map); // add the control button to the map.
+```
+
+17 (3). When the user clicks the ‘My Location’ button, the map zooms in to the user's current location and displays a pop-up window showing the nearest station and landmarks to the user's location. After finding the user's location, first remove any existing icons and display the defined ‘My Location’ icon at the found location, and bind the pop-up window. If the user's location cannot be found, an alert will pop up.
+```
+// event: show the nearest stations and landmarks to the user's location popup window
+map.on('locationfound', function(e) { // when the user's location is found.
+  if (map.myLocationMarker) { // remove any existing location marker if needed.
+    map.removeLayer(map.myLocationMarker); // remove the existing marker.
+  }
+
+  // Add the marker at the user's location
+  map.myLocationMarker = L.marker(e.latlng, { icon: myLocationIcon })
+    .addTo(map)
+    .bindPopup("You are here.")
+    .openPopup();
+});
+
+// handle errors
+map.on('locationerror', function(e) {
+  alert("Could not get your location: " + e.message); // show an alert if the user's location is not found.
+});
+```
+
+17 (4). Delete all previous markers and lines, and reset the array that stores the lines. Iterate through each station, obtain the station's coordinates and name, and calculate the distance between the station and the user's location. Store all of this attribute information in the corresponding array. Perform exactly the same work for landmark data.
+```  // Remove any previous marker if needed
+  if (map.myLocationMarker) {
+    map.removeLayer(map.myLocationMarker);
+  }
+
+  // Remove previous lines if needed (so they don't pile up)
+  if (map.myLocationLines) {
+    map.myLocationLines.forEach(line => map.removeLayer(line)); //remove the previous lines.
+  }
+  map.myLocationLines = []; //reset the line array.
+
+  // Create marker
+  map.myLocationMarker = L.marker(userLatLng, { icon: myLocationIcon }).addTo(map);
+
+  // Collect stations
+  const stationFeatures = []; // create an array to store the station features.
+  station.eachLayer(layer => { // iterate through each station layer.
+    const latlng = layer.getLatLng(); // get the coordinates of the stations.
+    const name = layer.feature?.properties?.name || "Station"; // get the name of the station.
+    // calculate the distance between the user's location and the station.
+    const distance = getDistance(userLatLng.lat, userLatLng.lng, latlng.lat, latlng.lng); 
+
+    stationFeatures.push({ // add the station features to the array.
+      type: "Station",
+      layer: layer,
+      name: name,
+      latlng: latlng,
+      distance: distance
+    });
+  });
+
+  // Collect landmarks
+  const landmarkFeatures = []; // create an array to store the landmarks features.
+  landmarks.eachLayer(layer => { // iterate through each landmark layer.
+    const latlng = layer.getLatLng(); // get the coordinates of the landmarks.
+    const name = layer.feature?.properties?.NAME || "Landmark"; // get the name of the landmark.
+    // calculate the distance between the user's location and the landmark.
+    const distance = getDistance(userLatLng.lat, userLatLng.lng, latlng.lat, latlng.lng);
+
+    landmarkFeatures.push({ // add the landmark features to the array.
+      type: "Landmark",
+      layer: layer,
+      name: name,
+      latlng: latlng,
+      distance: distance
+    });
+  });
+```
+
+17 (5). Sort the distances from smallest to largest, select the top three stations and the top two landmarks. Rebuild the pop-up window to display the names and distances of the three closest stations and two closest landmarks.
+```
+ // Sort and select top 3 stations
+  stationFeatures.sort((a, b) => a.distance - b.distance); // sort the stations by distance.
+  const nearestStations = stationFeatures.slice(0, 3); // select the top 3 stations.
+
+  // Sort and select top 2 landmarks
+  landmarkFeatures.sort((a, b) => a.distance - b.distance); // sort the landmarks by distance.
+  const nearestLandmarks = landmarkFeatures.slice(0, 2); // select the top 2 landmarks.
+
+  // Build popup content
+let popupContent = "<strong>Nearest Stations:</strong><ul>"; // create a popup content string.
+nearestStations.forEach(f => { // iterate through each station.
+  popupContent += `<li>${f.name} (${f.distance.toFixed(2)} km)</li>`; // add the station name and distance to the popup content.
+  f.layer.setIcon(highlightIcon);  // set the icon of the station.
+});
+popupContent += "</ul>"; // close the stations list.
+
+
+  popupContent += "<strong>Nearest Landmarks:</strong><ul>"; // create a popup content string.
+  nearestLandmarks.forEach(f => { // iterate through each landmark.
+    popupContent += `<li>${f.name} (${f.distance.toFixed(2)} km)</li>`; // add the landmark name and distance to the popup content.
+  });
+  popupContent += "</ul>"; // close the landmarks list.
+```
+
+17 (6). Use lines to connect the user's location with landmarks and stations. Bind pop-up windows to my location icons.
+```
+  // Draw lines to nearest stations
+  nearestStations.forEach(f => { // iterate through each station.
+    const line = L.polyline([userLatLng, f.latlng], { // draw a line to the station.
+      color: 'blue',
+      weight: 2,
+      dashArray: '4,6'
+    }).addTo(map);
+    map.myLocationLines.push(line); // add the line to the array.
+  });
+
+  // Draw lines to nearest landmarks
+  nearestLandmarks.forEach(f => { // iterate through each landmark.
+    const line = L.polyline([userLatLng, f.latlng], { // draw a line to the landmark.
+      color: 'green',
+      weight: 2,
+      dashArray: '4,6'
+    }).addTo(map);
+    map.myLocationLines.push(line); // add the line to the array.
+  });
+
+  // Bind popup to location marker
+  map.myLocationMarker.bindPopup(popupContent).openPopup(); // bind the popup content to the location marker.
+});
+map.on("click", function() { // when the user clicks on the map.
+  // Remove the location marker if it exists
+  if (map.myLocationMarker) { // if the location marker exists.
+    map.removeLayer(map.myLocationMarker); // remove the location marker.
+    map.myLocationMarker = null; // reset the location marker.
+  }
+});
+```
+
+18. Add a button to return to the initial view of the map. Set the initial position and zoom level, set the buttons and styles. Set a single-click event to return the view to the initial position and add the buttons to the map.
+```
+// Event: add a home function
+const defaultCenter = [47.8095, 13.0550]; // set the default center of the map.
+const defaultZoom = 15; // set the default zoom of the map.
+
+const homeControl = L.control({ position: 'topleft' }); // create a control button for home.
+
+homeControl.onAdd = function(map) { // define the control button creation function.
+  const btn = L.DomUtil.create('button', 'leaflet-bar leaflet-control leaflet-control-custom'); // create the home button element.
+  btn.title = 'Go to Home'; // set the title of the button.
+
+  // Style it like a Leaflet button
+  btn.style.width = '34px';
+  btn.style.height = '34px';
+  btn.style.backgroundColor = 'white';
+  btn.style.border = 'none'; // set the border of the button
+  btn.style.cursor = 'pointer'; // set the cursor of the button.
+  btn.style.padding = '0'; // set the padding of the button.
+
+  // Add the icon.
+  const img = document.createElement('img');
+  img.src = 'css/images/house.png'; 
+  img.style.width = '100%';
+  img.style.height = '100%';
+  img.style.objectFit = 'cover'; // ensure the image cover the button area.
+  img.alt = 'Home'; // set the alt text for the image.
+
+  btn.appendChild(img); // add the image element as a child of the button to display the home icon.
+
+  // Prevent clicks from affecting map
+  L.DomEvent.disableClickPropagation(btn);
+
+  // Click action: go back to center
+  btn.onclick = function() {
+    map.setView(defaultCenter, defaultZoom); // set the view to the default center and zoom.
+  };
+
+  return btn; // return the button element to be added to the map. 
+};
+
+homeControl.addTo(map); // add the control button to the map.
+```
+
+19. When the mouse is on a bus route, the symbol is replaced with a highlighted display (the activated element is moved to the top of the layer).
+```
+// Event: highlight the feature
+function highlightFeature(e) {
+  var activefeature = e.target; // get the active feature.
+
+  activefeature.setStyle({ // set the style of the active feature.
+    weight: 7,              
+    color: '#9C27B0',       
+    dashArray: '',          
+    opacity: 0.8              
+  });
+
+  if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) { // if the browser is not ie, opera or edge
+    activefeature.bringToFront(); // bring the active feature to the front.
+  }
+}
+
+function resetHighlight(e) {
+  busline.resetStyle(e.target);  // Make sure 'busline' matches the layer name
+}
+```
+
+20 (1). Create an information window to display relevant information. Similar to the layer control button created earlier, a scroll wheel function has been added here. The content of the information window is defined using HTML mode （For specific details, please refer to the full version of the code）.
+```
+L.Control.Info3 = L.Control.extend({ // extend the control class to create a new control.
+  options: {
+    position: 'topleft'  
+  },
+
+  // This function is called by Leaflet when the control is added to the map
+  // It creates and returns the HTML elements that make up the custom control
+  // The 'map' parameter is the Leaflet map instance that the control will be attached to
+  onAdd: function (map) { // define the control button creation function.
+    // Create the main container div for the information control
+    // This will hold both the toggle button and the information panel
+    const container = L.DomUtil.create('div', 'leaflet-control3-info leaflet-control');
+
+    // Create the toggle button that users click to show/hide the information panel
+    // This button will be visible on the map and act as the trigger for the info panel
+    const toggle = L.DomUtil.create('div', 'leaflet-control3-info-toggle', container);
+
+    // Create the information panel that contains all the Salzburg information
+    // This panel will be hidden by default and shown when the toggle is clicked
+    const list = L.DomUtil.create('div', 'leaflet-control3-info-list', container);
+    list.style.display = 'none'; // hidden initially - the panel starts hidden
+    L.DomEvent.disableScrollPropagation(list); // Prevent scrolling inside the panel from affecting the map
+
+
+    // Set the HTML content for the information panel
+    // This contains all the Salzburg tourist information, images, and links
+    // The content includes welcome message, landmark descriptions, and external links
+    list.innerHTML =
+```
+
+20 (2). Set up some events: click the button to expand the window, disable click events within the information window, click outside the window to collapse it, and prevent the window from closing accidentally. Display the control button and information window on the map.
+```
+    // Add click event listener to the toggle button
+    // When clicked, it shows or hides the information panel
+    // Uses stopPropagation to prevent the map from receiving the click event
+    toggle.addEventListener('click', function (e) {
+      e.stopPropagation(); // Prevent map click closure - stops the click from affecting the map
+      list.style.display = (list.style.display === 'block') ? 'none' : 'block'; // Toggle panel visibility
+    });
+
+    // Add global click listener to close the panel when clicking outside of it
+    // This provides a better user experience by allowing users to close the panel by clicking elsewhere
+    document.addEventListener('click', () => {
+      list.style.display = 'none'; // Hide the panel when clicking outside
+    });
+
+    // Prevent the control container from closing when clicked
+    // This ensures the panel stays open when users interact with the control itself
+    container.addEventListener('click', function (e) {
+      e.stopPropagation(); // Don't close when clicking the control itself
+    });
+
+    // Prevent map interactions when clicking on the control
+    // This ensures the control doesn't interfere with map functionality
+    L.DomEvent.disableClickPropagation(container);
+    return container; // Return the container so Leaflet can add it to the map
+  }
+});
+
+// Factory function to create instances of the Info3 control
+// This follows Leaflet's convention for creating custom controls
+// It allows users to create the control with optional parameters
+L.control.info3 = function (opts) {
+  return new L.Control.Info3(opts); // Create and return a new instance of the custom control
+};
+
+// Create an instance of the Info3 control and add it to the map
+// This makes the information panel visible on the map interface
+L.control.info3().addTo(map);
+```
