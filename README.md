@@ -32,3 +32,28 @@ var baseMaps = {
   "open topomap": opentopo
 };
 ```
+
+3. Here, a layer control button is defined to switch between different base maps, and the position of the button and the scale control are set.
+```L.control.layers(baseMaps).addTo(map);
+//
+L.control.scale({ position: 'bottomright', imperial: false }).addTo(map);
+```
+
+4. The following series of code defines all the map icons that will be used, including the images, sizes, positions, etc. Here is a small selection; the rest are similar.
+```
+var stationIcon = L.icon({
+  iconUrl: 'css/images/A1.png',
+  iconSize: [15, 15],
+  iconAnchor: [10, 5], // Bottom center of the icon
+  popupAnchor: [0, -10] // determines where the popup will open relative to the icon’s anchor point.
+});
+
+var highlightIcon = L.icon({
+  iconUrl: 'css/images/A1.png',
+  iconSize: [30, 30],
+  iconAnchor: [10, 10],
+  popupAnchor: [0, -50]
+});
+```
+
+5. 
