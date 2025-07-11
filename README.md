@@ -12,7 +12,7 @@ map.doubleClickZoom.disable();
 ```
 
 2. Several different base maps provided by OpenStreetMap are used here, and a base map collection object is defined to facilitate the addition of layer switching controls to the map, allowing users to freely switch between different base maps.
-```
+```js
 var osmap = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
@@ -35,13 +35,14 @@ var baseMaps = {
 ```
 
 3. Here, a layer control button is defined to switch between different base maps, and the position of the button and the scale control are set.
-```L.control.layers(baseMaps).addTo(map);
+```js
+L.control.layers(baseMaps).addTo(map);
 //
 L.control.scale({ position: 'bottomright', imperial: false }).addTo(map);
 ```
 
 4. The following series of code defines all the map icons that will be used, including the images, sizes, positions, etc. Here is a small selection; the rest are similar.
-```
+```js
 var stationIcon = L.icon({
   iconUrl: 'css/images/A1.png',
   iconSize: [15, 15],
@@ -58,7 +59,7 @@ var highlightIcon = L.icon({
 ```
 
 5. The next part is to display the data that will be used on the map. Here, the style of the bus route is defined and displayed on the map, with a pop-up window and its contents bound to it. An event is defined to display a larger icon when the mouse hovers over it, and the icon is reset when the mouse is moved away.
-```
+```js
 var busline = L.geoJson(busline, {
   style: {
     color: '#2196F3',
@@ -80,7 +81,7 @@ var busline = L.geoJson(busline, {
 ```
 
 6.Defining bicycle routes
-```
+```js
 var bikeway = L.geoJson(bikeway, {
   style:{
   color: '#8A2BE2',
@@ -91,7 +92,7 @@ var bikeway = L.geoJson(bikeway, {
 ```
 
 7. Different line icons are used for city boundaries. Here, overlapping lines are used, and two line elements are combined into one to display symbols of different styles.
-```
+```js
 var boundaryOuter = L.geoJson(SBGboundary, {
   style: {
     color: 'black',
@@ -121,7 +122,7 @@ var footpath = L.geoJson(footpath,{
 ```
 
 8. Defining bicycle routes
-```
+```js
 var footpath = L.geoJson(footpath,{
   style: {
   color: 'darkorange',
@@ -132,7 +133,7 @@ var footpath = L.geoJson(footpath,{
 ```
 
 9. This defines how bus stations features are displayed, showing each point feature as a predefined icon and binding a pop-up window to it. It also defines an event that highlights the icon when the mouse hovers over it.
-```
+```js
 var station = L.geoJson(busstation, {
   pointToLayer: function (feature, latlng) {
     return L.marker(latlng, { icon: stationIcon });
@@ -156,7 +157,7 @@ var station = L.geoJson(busstation, {
 
 10. Define landmark elements and display them on the map using predefined icons. Bind a pop-up window to display content, and subsequently define other pop-up window content. Set labels to always display on the map. Also set mouse hover events.
 
-```
+```js
 var landmarks = L.geoJson(landmarks, {
   pointToLayer: function (feature, latlng) {
     return L.marker(latlng, { icon: landmarksIcon });
@@ -187,7 +188,7 @@ var landmarks = L.geoJson(landmarks, {
 ```
 
 11. Defined a layers object to store all data layers, and defined another layer control button to switch data layers.
-```
+```js
 var layers = {
     "Bus line": busline,
     "Bikeway": bikeway,
@@ -226,7 +227,7 @@ L.Control.Control2Layers = L.Control.extend({
 ```
 
 12 (2). Define a checkbox that can be used to show or hide data by selecting different data layers. Create a label element and add it to the list. Each row of labels contains a checkbox and the corresponding layer name. Finally, return the content to the container.
-```
+```js
       const label = L.DomUtil.create('label', '', list);
       label.appendChild(input);
       label.appendChild(document.createTextNode(' ' + name));
@@ -238,7 +239,7 @@ L.Control.Control2Layers = L.Control.extend({
 ```
 
 12 (3). A factory function that returns a new control when L.control2() is called. Add the complete control to the map.
-```
+```js
 L.control2 = function (options) {
   return new L.Control.Control2Layers(options);
 };
@@ -249,14 +250,14 @@ L.control2({
 ```
 
 13. Double-click to zoom in on the station closest to the click location.
-```
+```js
 map.on('dblclick', function(e) {
   let nearest = null;
   let minDist = Infinity;
 ```
 
 14. Iterate through all bus stop coordinates. When a click event is triggered, calculate the straight-line distance between the two points. Determine whether the currently calculated distance is less than the currently known minimum distance. If it is less, update the minimum distance and mark it as the nearest stop. Zoom in on that station and display the station pop-up window.
-```
+```js
 station.eachLayer(function(layer) {
     const latlng = layer.getLatLng();
     const dist = e.latlng.distanceTo(latlng); // in meters
@@ -274,7 +275,7 @@ station.eachLayer(function(layer) {
 ```
 
 15 (1). This section displays a pop-up window with a brief introduction when the user clicks on any landmark icon, and also showing the five stations closest to that landmark. The first step is to clear all lines on the map, but without clearing the polygons. This is equivalent to a reset function, because the nearest stations here need to be connected by lines.
-```
+```js
 function clearLines() {
   map.eachLayer(function (layer) {
     if (layer instanceof L.Polyline && !(layer instanceof L.Polygon)) {
@@ -285,7 +286,7 @@ function clearLines() {
 ```
 
 15 (2). A reset function that resets all bus stop icons to the default station icons and rebinds the pop-up window content. Since the icon for the nearest station is highlighted, clicking on a new landmark resets the station icon to prevent multiple stations from being highlighted.
-```
+```js
 function resetStationIcons() {
   station.eachLayer(function (layer) {
     const name = layer.feature?.properties?.name || 'Station';
@@ -296,7 +297,7 @@ function resetStationIcons() {
 ```
 
 15 (3). Define a function to bind click events to each landmark and mark the current landmark as active. When clicked, obtain the landmark coordinates, calculate the distance, find the nearest station, and pop up a window with information. When a station that has already been marked as active is clicked again, clear all connections and highlights, close the pop-up window, and cancel the active status.
-```
+```js
 function setupLandmarkClick() {
   landmarks.eachLayer(function (layer) {
     layer.isActive = false; // Flag to track active state
@@ -315,7 +316,7 @@ function setupLandmarkClick() {
 ```
 
 15 (4).Preparation: First, deactivate all stations, clear all lines, reset the icons, and set a variable to store the distance.
-```
+```js
       // Deactivate all landmarks first
       landmarks.eachLayer(l => l.isActive = false);
       layer.isActive = true;
@@ -329,7 +330,7 @@ function setupLandmarkClick() {
 ```
 
 15 (5). Iterate through all bus stops, obtain their coordinates and names, and calculate the distance between the clicked landmark and the bus stops. Add the stop information and distance to the array.
-```
+```js
       station.eachLayer(function (stationLayer) {
         const stopLatLng = stationLayer.getLatLng(); // Get coordinates of current bus station
         // getDistance() is a function using the Haversine formula (in km) (This function is defined later).
@@ -350,7 +351,7 @@ function setupLandmarkClick() {
 ```
 
 15 (6).Sort by distance from smallest to largest and select the top five. Obtain landmark data attributes, name, description, image link, and detailed information link.
-```
+```js
       // Sort and pick nearest 5
       distances.sort((a, b) => a.distance - b.distance);
       const nearest = distances.slice(0, 5); // Get the 5 closest stations
@@ -364,7 +365,7 @@ function setupLandmarkClick() {
 ```
 
 15 (7). Bind a new pop-up window to store HTML content, use pop-up window styles in CSS, set titles, introductions, insert images, and links.
-```
+```js
 let popupContent = `
     <div class="landmark-popup-content">
     <h4>${landmarkName}</h4>
@@ -383,7 +384,7 @@ if (linkURL) {
 ```
 
 15 (8). Display the five nearest stations in a pop-up window, with the display style set as follows. Highlight the icons and link them with lines to complete the pop-up window content. Finally, display the pop-up window on the map after a click event occurs.
-```
+```js
 popupContent += `<strong>Nearest Stations:</strong><ul>`;
 
       nearest.forEach(stop => {
@@ -416,7 +417,7 @@ popupContent += `<strong>Nearest Stations:</strong><ul>`;
 ```
 
 15 (9). Define the distance calculation function. Then call the click function.
-```
+```js
 function getDistance(lat1, lon1, lat2, lon2) {
   const R = 6371; // Radius of Earth in km
   // Converts degrees to radians.
@@ -437,7 +438,7 @@ setupLandmarkClick();
 ```
 
 16 (1). Add a search function, add a search button, a click event, and a search box for entering text. Check if the search box is empty and define a variable to mark whether the target is found.
-```
+```js
 document.getElementById('searchButton').addEventListener('click', function() { // Add search functionality for stations and landmarks
   const query = document.getElementById('searchBox').value.trim().toLowerCase(); // Get search query and convert to lowercase
 
@@ -450,7 +451,7 @@ document.getElementById('searchButton').addEventListener('click', function() { /
 ```
 
 16 (2). Search for stations and landmarks, as the search is based on the name entered. First, iterate through each station and store all station names in an array. Check if the entered name is in the array. If it is, zoom in on the target station and open a pop-up window, marking the search as true. If it is not found, repeat the above process for all landmarks. If there is still no matching name, display a alert indicating that there is no match.
-```
+```js
   station.eachLayer(layer => {
     const name = layer.feature?.properties?.name?.toLowerCase();
     if (name && name === query) { // Check if station name matches search query exactly
@@ -479,7 +480,7 @@ document.getElementById('searchButton').addEventListener('click', function() { /
 ```
 
 17 (1). Add my location function. Set up a button, define the button's position, title, style, and icon.
-```
+```js
 // Add a My Location feature
 const locateControl = L.control({ position: 'topleft' }); // creat a control button for my location
 
@@ -507,7 +508,7 @@ locateControl.onAdd = function(map) { // Define the control button creation func
 ```
 
 17 (2). Disable map click events. When the user clicks on the My Location icon, locate and zoom in on the user's location. Add control buttons to the map.
-```
+```js
   // Prevent map clicks from triggering
   L.DomEvent.disableClickPropagation(btn);
 
@@ -525,7 +526,7 @@ locateControl.addTo(map); // add the control button to the map.
 ```
 
 17 (3). When the user clicks the ‘My Location’ button, the map zooms in to the user's current location and displays a pop-up window showing the nearest station and landmarks to the user's location. After finding the user's location, first remove any existing icons and display the defined ‘My Location’ icon at the found location, and bind the pop-up window. If the user's location cannot be found, an alert will pop up.
-```
+```js
 // event: show the nearest stations and landmarks to the user's location popup window
 map.on('locationfound', function(e) { // when the user's location is found.
   if (map.myLocationMarker) { // remove any existing location marker if needed.
@@ -546,7 +547,8 @@ map.on('locationerror', function(e) {
 ```
 
 17 (4). Delete all previous markers and lines, and reset the array that stores the lines. Iterate through each station, obtain the station's coordinates and name, and calculate the distance between the station and the user's location. Store all of this attribute information in the corresponding array. Perform exactly the same work for landmark data.
-```  // Remove any previous marker if needed
+```js
+// Remove any previous marker if needed
   if (map.myLocationMarker) {
     map.removeLayer(map.myLocationMarker);
   }
@@ -596,7 +598,7 @@ map.on('locationerror', function(e) {
 ```
 
 17 (5). Sort the distances from smallest to largest, select the top three stations and the top two landmarks. Rebuild the pop-up window to display the names and distances of the three closest stations and two closest landmarks.
-```
+```js
  // Sort and select top 3 stations
   stationFeatures.sort((a, b) => a.distance - b.distance); // sort the stations by distance.
   const nearestStations = stationFeatures.slice(0, 3); // select the top 3 stations.
@@ -622,7 +624,7 @@ popupContent += "</ul>"; // close the stations list.
 ```
 
 17 (6). Use lines to connect the user's location with landmarks and stations. Bind pop-up windows to my location icons.
-```
+```js
   // Draw lines to nearest stations
   nearestStations.forEach(f => { // iterate through each station.
     const line = L.polyline([userLatLng, f.latlng], { // draw a line to the station.
@@ -656,7 +658,7 @@ map.on("click", function() { // when the user clicks on the map.
 ```
 
 18. Add a button to return to the initial view of the map. Set the initial position and zoom level, set the buttons and styles. Set a single-click event to return the view to the initial position and add the buttons to the map.
-```
+```js
 // Event: add a home function
 const defaultCenter = [47.8095, 13.0550]; // set the default center of the map.
 const defaultZoom = 15; // set the default zoom of the map.
@@ -700,7 +702,7 @@ homeControl.addTo(map); // add the control button to the map.
 ```
 
 19. When the mouse is on a bus route, the symbol is replaced with a highlighted display (the activated element is moved to the top of the layer).
-```
+```js
 // Event: highlight the feature
 function highlightFeature(e) {
   var activefeature = e.target; // get the active feature.
@@ -723,7 +725,7 @@ function resetHighlight(e) {
 ```
 
 20 (1). Create an information window to display relevant information. Similar to the layer control button created earlier, a scroll wheel function has been added here. The content of the information window is defined using HTML mode （For specific details, please refer to the full version of the code）.
-```
+```js
 L.Control.Info3 = L.Control.extend({ // extend the control class to create a new control.
   options: {
     position: 'topleft'  
@@ -755,7 +757,7 @@ L.Control.Info3 = L.Control.extend({ // extend the control class to create a new
 ```
 
 20 (2). Set up some events: click the button to expand the window, disable click events within the information window, click outside the window to collapse it, and prevent the window from closing accidentally. Display the control button and information window on the map.
-```
+```js
     // Add click event listener to the toggle button
     // When clicked, it shows or hides the information panel
     // Uses stopPropagation to prevent the map from receiving the click event
