@@ -247,4 +247,105 @@ L.control2({
 }).addTo(map);
 ```
 
-13. 
+13. Double-click to zoom in on the station closest to the click location.
+```
+map.on('dblclick', function(e) {
+  let nearest = null;
+  let minDist = Infinity;
+```
+
+14. Iterate through all bus stop coordinates. When a click event is triggered, calculate the straight-line distance between the two points. Determine whether the currently calculated distance is less than the currently known minimum distance. If it is less, update the minimum distance and mark it as the nearest stop. Zoom in on that station and display the station pop-up window.
+```
+station.eachLayer(function(layer) {
+    const latlng = layer.getLatLng();
+    const dist = e.latlng.distanceTo(latlng); // in meters
+    if (dist < minDist) {
+      minDist = dist;
+      nearest = layer;
+    }
+  });
+// Zoom to the nearest station and display a pop-up window.
+  if (nearest) {
+    map.setView(nearest.getLatLng(), 18); // zoom to the feature
+    nearest.openPopup(); // optional: show popup
+  }
+})
+```
+
+15 (1). This section displays a pop-up window with a brief introduction when the user clicks on any landmark icon, and also showing the five stations closest to that landmark. The first step is to clear all lines on the map, but without clearing the polygons. This is equivalent to a reset function, because the nearest stations here need to be connected by lines.
+```
+function clearLines() {
+  map.eachLayer(function (layer) {
+    if (layer instanceof L.Polyline && !(layer instanceof L.Polygon)) {
+      map.removeLayer(layer);
+    }
+  });
+}
+```
+
+15 (2). A reset function that resets all bus stop icons to the default station icons and rebinds the pop-up window content. Since the icon for the nearest station is highlighted, clicking on a new landmark resets the station icon to prevent multiple stations from being highlighted.
+```
+function resetStationIcons() {
+  station.eachLayer(function (layer) {
+    const name = layer.feature?.properties?.name || 'Station';
+    layer.setIcon(stationIcon);
+    layer.bindPopup("Station Name: " + name); // Rebind after reset
+  });
+}
+```
+
+15 (3). Define a function to bind click events to each landmark and mark the current landmark as active. When clicked, obtain the landmark coordinates, calculate the distance, find the nearest station, and pop up a window with information. When a station that has already been marked as active is clicked again, clear all connections and highlights, close the pop-up window, and cancel the active status.
+```
+function setupLandmarkClick() {
+  landmarks.eachLayer(function (layer) {
+    layer.isActive = false; // Flag to track active state
+    //Add a click command，click for latitude and longitude.
+    layer.on('click', function (e) {
+      const clickedLatLng = e.latlng;
+
+      // Toggle off if already active
+      if (layer.isActive) {
+        clearLines();
+        resetStationIcons();
+        map.closePopup();
+        layer.isActive = false;
+        return;
+      }
+```
+
+15 (4).Preparation: First, deactivate all stations, clear all lines, reset the icons, and set a variable to store the distance.
+```
+      // Deactivate all landmarks first
+      landmarks.eachLayer(l => l.isActive = false);
+      layer.isActive = true;
+
+      // Clear lines and reset icons
+      clearLines();
+      resetStationIcons();
+
+      // Find distances to all stations
+      const distances = [];
+```
+
+15 (5). Iterate through all bus stops, obtain their coordinates and names, and calculate the distance between the clicked landmark and the bus stops. Add the stop information and distance to the array.
+```
+      station.eachLayer(function (stationLayer) {
+        const stopLatLng = stationLayer.getLatLng(); // Get coordinates of current bus station
+        // getDistance() is a function using the Haversine formula (in km) (This function is defined later).
+        const distance = getDistance(
+          clickedLatLng.lat,
+          clickedLatLng.lng,
+          stopLatLng.lat,
+          stopLatLng.lng
+        );
+        // Add this object to the distances array:
+        distances.push({
+          layer: stationLayer,
+          name: stationLayer.feature?.properties?.name || 'Station', // Get station name with fallback to 'Station'
+          latlng: stopLatLng,
+          distance: distance
+        });
+      });
+```
+
+15 (6).
