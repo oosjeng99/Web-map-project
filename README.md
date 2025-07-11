@@ -153,4 +153,98 @@ var station = L.geoJson(busstation, {
 });
 ```
 
-10. 
+10. Define landmark elements and display them on the map using predefined icons. Bind a pop-up window to display content, and subsequently define other pop-up window content. Set labels to always display on the map. Also set mouse hover events.
+
+```
+var landmarks = L.geoJson(landmarks, {
+  pointToLayer: function (feature, latlng) {
+    return L.marker(latlng, { icon: landmarksIcon });
+  },
+  onEachFeature: function (feature, layer) {
+    if (feature.properties && feature.properties.NAME) {
+      // Popup on click
+      layer.bindPopup("Landmark: " + feature.properties.NAME);
+      // Tooltip label (always visible above the marker)
+      layer.bindTooltip(feature.properties.NAME, {
+        permanent: true,
+        direction: 'top',
+        offset: [0, -25],
+        className: 'landmark-label' // optional custom style
+      });
+    }
+    // Hover effect for icon
+    layer.on({
+      mouseover: function () {
+        layer.setIcon(Biglandmarks);
+      },
+      mouseout: function () {
+        layer.setIcon(landmarksIcon);
+      }
+    });
+  }
+});
+```
+
+11. Defined a layers object to store all data layers, and defined another layer control button to switch data layers.
+```
+var layers = {
+    "Bus line": busline,
+    "Bikeway": bikeway,
+    "Salzbure boundary": boundary,
+    "Stations": station,
+    "Footpath": footpath,
+    "Landmarks": landmarks
+}
+
+//Creat another layer control for datalayers
+L.Control.Control2Layers = L.Control.extend({
+  options: {
+    position: 'bottomright',
+    overlays: {}
+  },
+```
+
+12 (1). This section make some settings for custom layer control buttons. The purpose here is to first define a container, then define a toggle button, and finally define a display list. All of these use styles from CSS. Cancel the double-click zoom event in the container. Display each layer by name in the list.
+```
+  onAdd: function (map) {
+    //Create a container, using the styles in css
+    const container = L.DomUtil.create('div', 'leaflet-control2-layers'); // No "collapsed" or "expanded"
+    // Create the toggle button
+    const toggle = L.DomUtil.create('div', 'leaflet-control2-layers-toggle', container);
+    // Create the list container
+    const list = L.DomUtil.create('div', 'leaflet-control2-layers-list', container);
+    // Clicking or double-clicking inside a container will have no effect on the map (disable click events inside the container.)
+    L.DomEvent.disableClickPropagation(container);
+    // Toggle icon click shows/hides the list
+    L.DomEvent.on(toggle, 'click', function () {
+    });
+    // Displays the name of each feature layer in a list.
+    const overlays = this.options.overlays;
+    for (let name in overlays) {
+      const layer = overlays[name];
+```
+
+12 (2). Define a checkbox that can be used to show or hide data by selecting different data layers. Create a label element and add it to the list. Each row of labels contains a checkbox and the corresponding layer name. Finally, return the content to the container.
+```
+      const label = L.DomUtil.create('label', '', list);
+      label.appendChild(input);
+      label.appendChild(document.createTextNode(' ' + name));
+    }
+
+    return container;
+  },
+});
+```
+
+12 (3). A factory function that returns a new control when L.control2() is called. Add the complete control to the map.
+```
+L.control2 = function (options) {
+  return new L.Control.Control2Layers(options);
+};
+// Adds the entirety of the control button to the map, which is used to display the data layers in the layers collection.
+L.control2({
+  overlays: layers
+}).addTo(map);
+```
+
+13. 
