@@ -207,7 +207,7 @@ L.Control.Control2Layers = L.Control.extend({
 ```
 
 12 (1). This section make some settings for custom layer control buttons. The purpose here is to first define a container, then define a toggle button, and finally define a display list. All of these use styles from CSS. Cancel the double-click zoom event in the container. Display each layer by name in the list.
-```
+```js
   onAdd: function (map) {
     //Create a container, using the styles in css
     const container = L.DomUtil.create('div', 'leaflet-control2-layers'); // No "collapsed" or "expanded"
